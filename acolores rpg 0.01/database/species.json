@@ -1,0 +1,82 @@
+[
+    {
+        "id": "species-0001",
+
+        "nationalId": 1,
+
+        "name": "Bulbasaur",
+
+        "sprite":
+            "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+
+        "types": [
+            "Grama",
+            "Venenoso"
+        ],
+
+        "height": 0.7,
+
+        "weight": 6.9,
+
+        "abilities": [
+            "ability-0001",
+            "ability-0002"
+        ],
+
+        "baseStats": {
+            "agilidade": 4,
+            "forca": 5,
+            "constituicao": 6,
+            "atencao": 7,
+            "determinacao": 5,
+            "gentileza": 8,
+            "sorte": 3
+        },
+
+        "moves": [
+            "move-0001",
+            "move-0002",
+            "move-0003"
+        ]
+    },
+
+    {
+        "id": "species-0025",
+
+        "nationalId": 25,
+
+        "name": "Pikachu",
+
+        "sprite":
+            "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
+
+        "types": [
+            "Elétrico"
+        ],
+
+        "height": 0.4,
+
+        "weight": 6,
+
+        "abilities": [
+            "ability-0003",
+            "ability-0004"
+        ],
+
+        "baseStats": {
+            "agilidade": 9,
+            "forca": 5,
+            "constituicao": 4,
+            "atencao": 8,
+            "determinacao": 6,
+            "gentileza": 7,
+            "sorte": 3
+        },
+
+        "moves": [
+            "move-0001",
+            "move-0004",
+            "move-0005"
+        ]
+    }
+]

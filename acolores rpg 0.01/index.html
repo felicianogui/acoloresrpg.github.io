@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Database de Pokémon, treinadores e movimentos."
+    >
+
+    <title>RPG Database</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="manifest" href="manifest.json">
+</head>
+
+<body>
+
+<header class="site-header">
+
+    <div class="header-content">
+
+        <h1>RPG Database</h1>
+
+        <nav class="main-nav">
+
+            <button
+                class="nav-button active"
+                data-page="pokemon"
+            >
+                Pokémon
+            </button>
+
+            <button
+                class="nav-button"
+                data-page="trainers"
+            >
+                Treinadores
+            </button>
+
+            <button
+                class="nav-button"
+                data-page="moves"
+            >
+                Movimentos
+            </button>
+
+        </nav>
+
+        <div id="search-container">
+
+            <input
+                id="search"
+                type="search"
+                placeholder="Pesquisar Pokémon..."
+                autocomplete="off"
+            >
+
+        </div>
+
+    </div>
+
+</header>
+
+
+<main id="app">
+
+    <div class="loading">
+        Carregando database...
+    </div>
+
+</main>
+
+
+<script src="app.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,18 @@
+{
+    "name": "RPG Database",
+
+    "short_name": "RPG Database",
+
+    "description":
+        "Database de Pokémon, treinadores e movimentos.",
+
+    "start_url": "./",
+
+    "display": "standalone",
+
+    "background_color": "#eeeeee",
+
+    "theme_color": "#222222",
+
+    "icons": []
+}

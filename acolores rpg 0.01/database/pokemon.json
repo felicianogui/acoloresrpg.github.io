@@ -1,0 +1,173 @@
+[
+    {
+        "id": "pokemon-0001",
+
+        "speciesId": "species-0001",
+
+        "status": "capturado",
+
+        "nickname": "Leaf",
+
+        "gender": "Fêmea",
+
+        "trainerId": "trainer-0001",
+
+        "nature": "Calma",
+
+        "stats": {
+
+            "agilidade": {
+                "base": 4,
+                "real": 6
+            },
+
+            "forca": {
+                "base": 5,
+                "real": 7
+            },
+
+            "constituicao": {
+                "base": 6,
+                "real": 8
+            },
+
+            "atencao": {
+                "base": 7,
+                "real": 9
+            },
+
+            "determinacao": {
+                "base": 5,
+                "real": 6
+            },
+
+            "gentileza": {
+                "base": 8,
+                "real": 10
+            },
+
+            "sorte": {
+                "base": 3,
+                "real": 4
+            }
+
+        },
+
+        "abilities": [
+            "ability-0001",
+            "ability-0002"
+        ],
+
+        "moves": [
+            "move-0001",
+            "move-0002",
+            "move-0003"
+        ]
+    },
+
+
+    {
+        "id": "pokemon-0025-001",
+
+        "speciesId": "species-0025",
+
+        "status": "capturado",
+
+        "nickname": "Sparky",
+
+        "gender": "Macho",
+
+        "trainerId": "trainer-0001",
+
+        "nature": "Alegre",
+
+        "stats": {
+
+            "agilidade": {
+                "base": 9,
+                "real": 10
+            },
+
+            "forca": {
+                "base": 5,
+                "real": 7
+            },
+
+            "constituicao": {
+                "base": 4,
+                "real": 6
+            },
+
+            "atencao": {
+                "base": 8,
+                "real": 9
+            },
+
+            "determinacao": {
+                "base": 6,
+                "real": 6
+            },
+
+            "gentileza": {
+                "base": 7,
+                "real": 8
+            },
+
+            "sorte": {
+                "base": 3,
+                "real": 4
+            }
+
+        },
+
+        "abilities": [
+            "ability-0003"
+        ],
+
+        "moves": [
+            "move-0001",
+            "move-0004",
+            "move-0005"
+        ]
+    },
+
+
+    {
+        "id": "pokemon-wild-0025",
+
+        "speciesId": "species-0025",
+
+        "status": "visto",
+
+        "nickname": null,
+
+        "gender": null,
+
+        "trainerId": null,
+
+        "nature": null,
+
+        "stats": {
+
+            "agilidade": 9,
+            "forca": 5,
+            "constituicao": 4,
+            "atencao": 8,
+            "determinacao": 6,
+            "gentileza": 7,
+            "sorte": 3
+
+        },
+
+        "abilities": [
+            "ability-0003",
+            "ability-0004"
+        ],
+
+        "moves": [
+            "move-0001",
+            "move-0004",
+            "move-0005"
+        ]
+    }
+]

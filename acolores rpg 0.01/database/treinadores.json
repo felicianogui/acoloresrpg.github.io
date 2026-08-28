@@ -1,0 +1,20 @@
+[
+    {
+        "id": "trainer-0001",
+
+        "name": "Gui",
+
+        "gender": "Masculino",
+
+        "hometown": "Tintazul",
+
+        "region": "Acolores",
+
+        "class": "Pesquisador",
+
+        "stars": 3,
+
+        "sprite":
+            "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/trainers/red.png"
+    }
+]
