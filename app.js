@@ -140,9 +140,9 @@ function setupNavigation() {
 }
 
 function showSeenPokemon() {
-    const species = [...database.species].sort((a, b) =>
-        a.name.localeCompare(b.name, "pt-BR")
-    );
+       const species = [...database.species].sort((a, b) =>
+        Number(a.nationalId) - Number(b.nationalId)
+        );
 
     app.innerHTML = `
         <section class="page">
@@ -1165,4 +1165,3 @@ function setupTrainerFilters() {
         });
 
 }
-
