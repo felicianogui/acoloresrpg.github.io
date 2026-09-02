@@ -5,18 +5,85 @@
 <head>
     <meta charset="UTF-8">
 
-<meta
-    name="viewport"
-    content="width=device-width, initial-scale=1.0"
->
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
 
-<title>RPG Database</title>
+    <title>RPG Database</title>
 
-<link
-    rel="stylesheet"
-    href="style.css"
->
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
 
+    <style>
+        body.dark-mode {
+            --background: #171717;
+            --surface: #242424;
+            --surface-secondary: #333333;
+            --border: #505050;
+            --text: #f1f1f1;
+            --text-secondary: #bdbdbd;
+            --primary: #eeeeee;
+            --primary-hover: #ffffff;
+            --shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+        }
+
+        body.dark-mode nav button:hover {
+            background: #454545;
+        }
+
+        body.dark-mode .pokemon-card:hover,
+        body.dark-mode .trainer-card:hover {
+            border-color: #858585;
+            box-shadow: 0 5px 14px rgba(0, 0, 0, 0.45);
+        }
+
+        body.dark-mode .species-page .species-header,
+        body.dark-mode .species-page .information-section,
+        body.dark-mode .species-page .move-detail,
+        body.dark-mode .species-page .ability-detail,
+        body.dark-mode .species-page .pokemon-card,
+        body.dark-mode .species-page .trainer-card {
+            background: rgba(36, 36, 36, 0.95);
+        }
+
+        .theme-toggle {
+            border: 1px solid var(--border);
+            background: var(--surface-secondary);
+            color: var(--text);
+            padding: 9px 15px;
+            border-radius: 7px;
+            cursor: pointer;
+            font-size: 0.95rem;
+            transition:
+                background 0.15s ease,
+                color 0.15s ease,
+                border-color 0.15s ease;
+        }
+
+        .theme-toggle:hover {
+            background: #dddddd;
+        }
+
+        body.dark-mode .theme-toggle:hover {
+            background: #454545;
+        }
+    </style>
+
+    <script>
+        (() => {
+            const savedTheme = localStorage.getItem("theme");
+            const prefersDark = window.matchMedia(
+                "(prefers-color-scheme: dark)"
+            ).matches;
+
+            if (savedTheme === "dark" || (!savedTheme && prefersDark)) {
+                document.documentElement.classList.add("dark-mode-preload");
+            }
+        })();
+    </script>
 </head>
 
 <body>
@@ -24,42 +91,51 @@
 <header>
     <div class="header-content">
 
-    <h1>RPG Database</h1>
+        <h1>RPG Database</h1>
 
-    <nav aria-label="Navegação principal">
+        <nav aria-label="Navegação principal">
 
-        <button
-            type="button"
-            data-page="pokemon"
-        >
-            Pokémon
-        </button>
+            <button
+                type="button"
+                data-page="pokemon"
+            >
+                Pokémon
+            </button>
 
-        <button
-            type="button"
-            data-page="trainers"
-        >
-            Treinadores
-        </button>
+            <button
+                type="button"
+                data-page="trainers"
+            >
+                Treinadores
+            </button>
 
-        <button
-            type="button"
-            data-page="moves"
-        >
-            Movimentos
-        </button>
+            <button
+                type="button"
+                data-page="moves"
+            >
+                Movimentos
+            </button>
 
-        <button
-            type="button"
-            data-page="abilities"
-        >
-            Habilidades
-        </button>
+            <button
+                type="button"
+                data-page="abilities"
+            >
+                Habilidades
+            </button>
 
-    </nav>
+            <button
+                type="button"
+                id="theme-toggle"
+                class="theme-toggle"
+                aria-label="Ativar modo escuro"
+                aria-pressed="false"
+            >
+                🌙 Modo escuro
+            </button>
 
-</div>
+        </nav>
 
+    </div>
 </header>
 
 <main id="app">
@@ -83,6 +159,47 @@
 </p>
 
 </footer>
+
+<script>
+    const themeToggle = document.getElementById("theme-toggle");
+    const savedTheme = localStorage.getItem("theme");
+    const prefersDark = window.matchMedia(
+        "(prefers-color-scheme: dark)"
+    ).matches;
+
+    function setTheme(theme) {
+        const isDark = theme === "dark";
+
+        document.body.classList.toggle("dark-mode", isDark);
+        document.documentElement.classList.remove("dark-mode-preload");
+
+        themeToggle.textContent = isDark
+            ? "☀️ Modo claro"
+            : "🌙 Modo escuro";
+
+        themeToggle.setAttribute("aria-pressed", String(isDark));
+        themeToggle.setAttribute(
+            "aria-label",
+            isDark
+                ? "Ativar modo claro"
+                : "Ativar modo escuro"
+        );
+    }
+
+    const initialTheme =
+        savedTheme || (prefersDark ? "dark" : "light");
+
+    setTheme(initialTheme);
+
+    themeToggle.addEventListener("click", () => {
+        const nextTheme = document.body.classList.contains("dark-mode")
+            ? "light"
+            : "dark";
+
+        localStorage.setItem("theme", nextTheme);
+        setTheme(nextTheme);
+    });
+</script>
 
 <script src="app.js"></script>
 
