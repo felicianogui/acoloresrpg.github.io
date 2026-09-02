@@ -1,0 +1,27 @@
+[
+    {
+        "id": "ability-0001",
+        "name": "Overgrow",
+        "description": "Quando estiver em situação crítica, ataques de Grama recebem bônus."
+    },
+    {
+        "id": "ability-0002",
+        "name": "Herbívoro",
+        "description": "Recupera energia ao interagir com vegetação."
+    },
+    {
+        "id": "ability-0003",
+        "name": "Static",
+        "description": "Contato físico pode causar paralisia."
+    },
+    {
+        "id": "ability-0004",
+        "name": "Lightning Rod",
+        "description": "Atrai ataques elétricos para si."
+    },
+    {
+        "id": "ability-1788054036725-740",
+        "name": "Nado Rápido",
+        "description": "Quando na água ou na chuva, esse Pokémon tem mais força e se torna mais ágil. (+1 de Força, +1 de Agilidade)."
+    }
+]

@@ -1,0 +1,86 @@
+[
+    {
+        "id": "trainer-1788053272398-403",
+        "name": "Adelaide",
+        "gender": "Não especificado",
+        "hometown": "Desconhecida",
+        "region": "Acolores",
+        "class": "Caçador de Insetos",
+        "stars": 2,
+        "sprite": "images/adelaide.png",
+        "pokemon": [],
+        "category": "Rival"
+    },
+    {
+        "id": "trainer-1788053481342-619",
+        "name": "Shiro",
+        "gender": "Macho",
+        "hometown": "Cidade de Slateport",
+        "region": "Hoenn",
+        "class": "Novato",
+        "stars": 2,
+        "sprite": "images/shiro.png",
+        "pokemon": [],
+        "category": "Jogador"
+    },
+    {
+        "id": "trainer-1788053544334-868",
+        "name": "Victoria",
+        "gender": "Fêmea",
+        "hometown": "Vila de Canvas",
+        "region": "Acolores",
+        "class": "Novata",
+        "stars": 2,
+        "sprite": "images/victoria.png",
+        "pokemon": [],
+        "category": "Jogador"
+    },
+    {
+        "id": "trainer-1788087398102-164",
+        "name": "Baderneiro",
+        "gender": "Macho",
+        "hometown": "Cidade Tintazul",
+        "region": "Acolores",
+        "category": "Ameaça",
+        "class": "Gangster",
+        "stars": 4,
+        "sprite": "https://play.pokemonshowdown.com/sprites/trainers/streetthug.png",
+        "pokemon": []
+    },
+    {
+        "id": "trainer-1788087448191-624",
+        "name": "Abby",
+        "gender": "Não especificado",
+        "hometown": "Desconhecida",
+        "region": "Acolores",
+        "category": "Ameaça",
+        "class": "Gangster(?)",
+        "stars": 4,
+        "sprite": "",
+        "pokemon": []
+    },
+    {
+        "id": "trainer-1788087481246-960",
+        "name": "Pescador",
+        "gender": "Macho",
+        "hometown": "Desconhecida",
+        "region": "Acolores",
+        "category": "Veterano",
+        "class": "Pescador",
+        "stars": 5,
+        "sprite": "https://play.pokemonshowdown.com/sprites/trainers/fisherman-gen7.png",
+        "pokemon": []
+    },
+    {
+        "id": "trainer-1788087650582-288",
+        "name": "Neves",
+        "gender": "Macho",
+        "hometown": "Ilha Ula'ula",
+        "region": "Alola",
+        "category": "Veterano",
+        "class": "Kahuna",
+        "stars": 5,
+        "sprite": "https://play.pokemonshowdown.com/sprites/trainers/nanu.png",
+        "pokemon": []
+    }
+]

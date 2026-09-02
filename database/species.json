@@ -1,0 +1,475 @@
+[
+    {
+        "id": "species-0025",
+        "nationalId": 25,
+        "name": "Pikachu",
+        "sprite": "https://archives.bulbagarden.net/media/upload/b/b2/Spr_5b_025_m.png",
+        "types": [
+            "Elétrico"
+        ],
+        "height": 0.4,
+        "weight": 6,
+        "abilities": [
+            "ability-0004"
+        ],
+        "baseStats": {
+            "agility": 6,
+            "strength": 4,
+            "constitution": 3,
+            "attention": 4,
+            "determination": 4,
+            "kindness": 5,
+            "luck": 2
+        },
+        "moves": [
+            "move-0005"
+        ],
+        "regionalVariation": ""
+    },
+    {
+        "id": "species-1788053645046-4",
+        "nationalId": 418,
+        "name": "Buizel",
+        "regionalVariation": "de Sinnoh",
+        "sprite": "https://archives.bulbagarden.net/media/upload/2/24/Spr_5b_418_m.png",
+        "types": [
+            "Água"
+        ],
+        "height": 0.7,
+        "weight": 29.5,
+        "abilities": [],
+        "baseStats": {
+            "agility": 0,
+            "strength": 0,
+            "constitution": 0,
+            "attention": 0,
+            "determination": 0,
+            "kindness": 0,
+            "luck": 0
+        },
+        "moves": []
+    },
+    {
+        "id": "species-1788053794542-713",
+        "nationalId": 419,
+        "name": "Floatzel",
+        "regionalVariation": "",
+        "sprite": "https://archives.bulbagarden.net/media/upload/7/71/Spr_5b_419_m.png",
+        "types": [
+            "Água"
+        ],
+        "height": 1.1,
+        "weight": 33.5,
+        "abilities": [
+            "ability-1788054036725-740"
+        ],
+        "baseStats": {
+            "agility": 7,
+            "strength": 7,
+            "constitution": 4,
+            "attention": 8,
+            "determination": 7,
+            "kindness": 7,
+            "luck": 2
+        },
+        "moves": []
+    },
+    {
+        "id": "species-1788232693673-216",
+        "nationalId": 2,
+        "name": "Ivysaur",
+        "regionalVariation": "",
+        "sprite": "https://archives.bulbagarden.net/media/upload/e/e1/Spr_5b_002.png",
+        "types": [
+            "Grama",
+            "Venenoso"
+        ],
+        "height": 1,
+        "weight": 13,
+        "abilities": [],
+        "baseStats": {
+            "agility": 4,
+            "strength": 4,
+            "constitution": 4,
+            "attention": 5,
+            "determination": 4,
+            "kindness": 6,
+            "luck": 2
+        },
+        "moves": []
+    },
+    {
+        "id": "species-1788309374959-365",
+        "nationalId": 58,
+        "name": "Growlithe",
+        "regionalVariation": "de Kanto",
+        "sprite": "https://archives.bulbagarden.net/media/upload/3/3f/Spr_5b_058.png",
+        "types": [
+            "Fogo"
+        ],
+        "height": 0.7,
+        "weight": 19,
+        "abilities": [],
+        "baseStats": {
+            "agility": 4,
+            "strength": 5,
+            "constitution": 3,
+            "attention": 3,
+            "determination": 5,
+            "kindness": 4,
+            "luck": 0
+        },
+        "moves": []
+    },
+    {
+        "id": "species-1788309428463-621",
+        "nationalId": 59,
+        "name": "Arcanine",
+        "regionalVariation": "de Kanto",
+        "sprite": "https://archives.bulbagarden.net/media/upload/6/6b/Spr_5b_059.png",
+        "types": [
+            "Fogo"
+        ],
+        "height": 1.9,
+        "weight": 155,
+        "abilities": [],
+        "baseStats": {
+            "agility": 6,
+            "strength": 7,
+            "constitution": 6,
+            "attention": 4,
+            "determination": 8,
+            "kindness": 6,
+            "luck": 0
+        },
+        "moves": []
+    },
+    {
+        "id": "species-1788309694983-156",
+        "nationalId": 948,
+        "name": "Toedscool",
+        "regionalVariation": "de Paldea",
+        "sprite": "https://www.smogon.com/forums/attachments/948-png.629249/",
+        "types": [
+            "Planta",
+            "Terra"
+        ],
+        "height": 0.9,
+        "weight": 33,
+        "abilities": [],
+        "baseStats": {
+            "agility": 5,
+            "strength": 3,
+            "constitution": 4,
+            "attention": 3,
+            "determination": 2,
+            "kindness": 5,
+            "luck": 1
+        },
+        "moves": []
+    },
+    {
+        "id": "species-1788309806974-192",
+        "nationalId": 167,
+        "name": "Spinarak",
+        "regionalVariation": "",
+        "sprite": "https://archives.bulbagarden.net/media/upload/9/95/Spr_5b_167.png",
+        "types": [
+            "Inseto",
+            "Venenoso"
+        ],
+        "height": 0.5,
+        "weight": 8.5,
+        "abilities": [],
+        "baseStats": {
+            "agility": 2,
+            "strength": 3,
+            "constitution": 3,
+            "attention": 6,
+            "determination": 3,
+            "kindness": 4,
+            "luck": 1
+        },
+        "moves": []
+    },
+    {
+        "id": "species-1788309880958-44",
+        "nationalId": 278,
+        "name": "Wingull",
+        "regionalVariation": "",
+        "sprite": "https://archives.bulbagarden.net/media/upload/f/f6/Spr_5b_278.png",
+        "types": [
+            "Água",
+            "Voador"
+        ],
+        "height": 0.6,
+        "weight": 9.5,
+        "abilities": [],
+        "baseStats": {
+            "agility": 5,
+            "strength": 3,
+            "constitution": 2,
+            "attention": 7,
+            "determination": 4,
+            "kindness": 4,
+            "luck": 1
+        },
+        "moves": []
+    },
+    {
+        "id": "species-1788311193069-565",
+        "nationalId": 261,
+        "name": "Poochyena",
+        "regionalVariation": "",
+        "sprite": "https://archives.bulbagarden.net/media/upload/3/3e/Spr_5b_261.png",
+        "types": [
+            "Sombrio"
+        ],
+        "height": 0.5,
+        "weight": 13.6,
+        "abilities": [],
+        "baseStats": {
+            "agility": 3,
+            "strength": 3,
+            "constitution": 3,
+            "attention": 4,
+            "determination": 4,
+            "kindness": 3,
+            "luck": 0
+        },
+        "moves": []
+    },
+    {
+        "id": "species-1788311266573-238",
+        "nationalId": 262,
+        "name": "Mightyena",
+        "regionalVariation": "",
+        "sprite": "https://archives.bulbagarden.net/media/upload/e/e1/Spr_5b_262.png",
+        "types": [
+            "Sombrio"
+        ],
+        "height": 1,
+        "weight": 37,
+        "abilities": [],
+        "baseStats": {
+            "agility": 5,
+            "strength": 6,
+            "constitution": 5,
+            "attention": 5,
+            "determination": 7,
+            "kindness": 5,
+            "luck": 1
+        },
+        "moves": []
+    },
+    {
+        "id": "species-1788311362780-930",
+        "nationalId": 222,
+        "name": "Corsola",
+        "regionalVariation": "de Johto",
+        "sprite": "https://archives.bulbagarden.net/media/upload/e/e6/Spr_5b_222.png",
+        "types": [
+            "Água",
+            "Pedra"
+        ],
+        "height": 0.6,
+        "weight": 5,
+        "abilities": [],
+        "baseStats": {
+            "agility": 3,
+            "strength": 4,
+            "constitution": 6,
+            "attention": 4,
+            "determination": 4,
+            "kindness": 6,
+            "luck": 3
+        },
+        "moves": []
+    },
+    {
+        "id": "species-1788311491228-393",
+        "nationalId": 349,
+        "name": "Feebas",
+        "regionalVariation": "",
+        "sprite": "https://archives.bulbagarden.net/media/upload/4/40/Spr_5b_349.png",
+        "types": [
+            "Água"
+        ],
+        "height": 0.6,
+        "weight": 7.4,
+        "abilities": [],
+        "baseStats": {
+            "agility": 5,
+            "strength": 1,
+            "constitution": 3,
+            "attention": 3,
+            "determination": 1,
+            "kindness": 1,
+            "luck": 3
+        },
+        "moves": []
+    },
+    {
+        "id": "species-1788311799652-530",
+        "nationalId": 350,
+        "name": "Milotic",
+        "regionalVariation": "",
+        "sprite": "https://archives.bulbagarden.net/media/upload/a/a7/Spr_5b_350_m.png",
+        "types": [
+            "Água"
+        ],
+        "height": 6.2,
+        "weight": 162,
+        "abilities": [],
+        "baseStats": {
+            "agility": 5,
+            "strength": 5,
+            "constitution": 7,
+            "attention": 6,
+            "determination": 3,
+            "kindness": 6,
+            "luck": 4
+        },
+        "moves": []
+    },
+    {
+        "id": "species-1788311991700-412",
+        "nationalId": 90,
+        "name": "Shellder",
+        "regionalVariation": "",
+        "sprite": "https://archives.bulbagarden.net/media/upload/6/66/Spr_5b_090.png",
+        "types": [
+            "Água"
+        ],
+        "height": 0.3,
+        "weight": 4,
+        "abilities": [],
+        "baseStats": {
+            "agility": 3,
+            "strength": 3,
+            "constitution": 5,
+            "attention": 3,
+            "determination": 2,
+            "kindness": 2,
+            "luck": 1
+        },
+        "moves": []
+    },
+    {
+        "id": "species-1788312035028-29",
+        "nationalId": 91,
+        "name": "Cloyster",
+        "regionalVariation": "",
+        "sprite": "https://archives.bulbagarden.net/media/upload/f/f1/Spr_5b_091.png",
+        "types": [
+            "Água",
+            "Gelo"
+        ],
+        "height": 1.5,
+        "weight": 132.5,
+        "abilities": [],
+        "baseStats": {
+            "agility": 5,
+            "strength": 6,
+            "constitution": 9,
+            "attention": 5,
+            "determination": 3,
+            "kindness": 3,
+            "luck": 1
+        },
+        "moves": []
+    },
+    {
+        "id": "species-1788312100156-557",
+        "nationalId": 183,
+        "name": "Marill",
+        "regionalVariation": "",
+        "sprite": "https://archives.bulbagarden.net/media/upload/3/3d/Spr_5b_183.png",
+        "types": [
+            "Água",
+            "Fada"
+        ],
+        "height": 0.4,
+        "weight": 8.5,
+        "abilities": [],
+        "baseStats": {
+            "agility": 3,
+            "strength": 2,
+            "constitution": 4,
+            "attention": 2,
+            "determination": 4,
+            "kindness": 3,
+            "luck": 4
+        },
+        "moves": []
+    },
+    {
+        "id": "species-1788312209556-136",
+        "nationalId": 179,
+        "name": "Mareep",
+        "regionalVariation": "",
+        "sprite": "https://archives.bulbagarden.net/media/upload/0/04/Spr_5b_179.png",
+        "types": [
+            "Elétrico"
+        ],
+        "height": 0.6,
+        "weight": 7.8,
+        "abilities": [],
+        "baseStats": {
+            "agility": 3,
+            "strength": 4,
+            "constitution": 4,
+            "attention": 3,
+            "determination": 3,
+            "kindness": 5,
+            "luck": 1
+        },
+        "moves": []
+    },
+    {
+        "id": "species-1788312263635-357",
+        "nationalId": 180,
+        "name": "Flaaffy",
+        "regionalVariation": "",
+        "sprite": "https://archives.bulbagarden.net/media/upload/3/3c/Spr_5b_180.png",
+        "types": [
+            "Elétrico"
+        ],
+        "height": 0.8,
+        "weight": 13.3,
+        "abilities": [],
+        "baseStats": {
+            "agility": 3,
+            "strength": 5,
+            "constitution": 5,
+            "attention": 3,
+            "determination": 3,
+            "kindness": 6,
+            "luck": 3
+        },
+        "moves": []
+    },
+    {
+        "id": "species-1788312318643-974",
+        "nationalId": 762,
+        "name": "Steenee",
+        "regionalVariation": "",
+        "sprite": "",
+        "types": [
+            "Grama"
+        ],
+        "height": 0.7,
+        "weight": 8.2,
+        "abilities": [],
+        "baseStats": {
+            "agility": 4,
+            "strength": 3,
+            "constitution": 4,
+            "attention": 3,
+            "determination": 5,
+            "kindness": 4,
+            "luck": 2
+        },
+        "moves": []
+    }
+]
