@@ -1,0 +1,47 @@
+[
+    {
+        "id": "move-0001",
+        "name": "Ataque Rápido",
+        "type": "Normal",
+        "mode": "gasta",
+        "energy": 1,
+        "dice": "1d6",
+        "description": "O Pokémon realiza um ataque extremamente veloz."
+    },
+    {
+        "id": "move-0002",
+        "name": "Chicote de Cipó",
+        "type": "Grama",
+        "mode": "gasta",
+        "energy": 1,
+        "dice": "1d6",
+        "description": "O Pokémon ataca o alvo utilizando seus cipós."
+    },
+    {
+        "id": "move-0003",
+        "name": "Descanso Natural",
+        "type": "Normal",
+        "mode": "recupera",
+        "energy": 2,
+        "dice": "Xd6-1",
+        "description": "O Pokémon recupera energia através de um breve descanso."
+    },
+    {
+        "id": "move-0004",
+        "name": "Choque do Trovão",
+        "type": "Elétrico",
+        "mode": "gasta",
+        "energy": 1,
+        "dice": "1d6",
+        "description": "O Pokémon libera uma descarga elétrica contra o alvo."
+    },
+    {
+        "id": "move-0005",
+        "name": "Investida Volt",
+        "type": "Elétrico",
+        "mode": "gasta",
+        "energy": 2,
+        "dice": "2d6",
+        "description": "O Pokémon realiza uma investida carregada de eletricidade."
+    }
+]

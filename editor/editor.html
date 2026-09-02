@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>RPG Database — Editor</title>
+
+    <link
+        rel="stylesheet"
+        href="editor.css"
+    >
+</head>
+
+<body>
+    <header>
+        <h1>RPG Database — Editor</h1>
+
+        <nav aria-label="Navegação do editor">
+            <button
+                type="button"
+                data-editor-page="pokemon"
+                class="active"
+            >
+                Pokémon
+            </button>
+
+            <button
+                type="button"
+                data-editor-page="trainers"
+            >
+                Treinadores
+            </button>
+
+            <button
+                type="button"
+                data-editor-page="species"
+            >
+                Espécies
+            </button>
+
+            <button
+                type="button"
+                data-editor-page="moves"
+            >
+                Movimentos
+            </button>
+
+            <button
+                type="button"
+                data-editor-page="abilities"
+            >
+                Habilidades
+            </button>
+
+            <button
+                type="button"
+                id="export-database"
+                class="database-export-button"
+            >
+                Exportar JSON
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <div id="editor-app">
+            <p>Carregando editor...</p>
+        </div>
+    </main>
+
+    <script src="index.js" defer></script>
+</body>
+
+</html>

@@ -1,0 +1,739 @@
+let species = [];
+let pokemon = [];
+let trainers = [];
+let moves = [];
+let abilities = [];
+
+let currentEditorPage = "pokemon";
+
+
+const editorApp =
+    document.getElementById(
+        "editor-app"
+    );
+
+
+/* =========================
+   CARREGAR DATABASE
+========================= */
+
+Promise.all([
+
+    fetch("database/species.json")
+        .then(r => r.json()),
+
+    fetch("database/pokemon.json")
+        .then(r => r.json()),
+
+    fetch("database/trainers.json")
+        .then(r => r.json()),
+
+    fetch("database/moves.json")
+        .then(r => r.json()),
+
+    fetch("database/abilities.json")
+        .then(r => r.json())
+
+])
+
+.then(data => {
+
+    species = data[0];
+
+    pokemon = data[1];
+
+    trainers = data[2];
+
+    moves = data[3];
+
+    abilities = data[4];
+
+    renderEditor();
+
+});
+
+
+/* =========================
+   NAVEGAÇÃO
+========================= */
+
+document
+    .querySelectorAll(
+        "[data-editor-page]"
+    )
+    .forEach(button => {
+
+        button.addEventListener(
+            "click",
+            () => {
+
+                currentEditorPage =
+                    button.dataset.editorPage;
+
+
+                document
+                    .querySelectorAll(
+                        "[data-editor-page]"
+                    )
+                    .forEach(b =>
+                        b.classList.remove(
+                            "active"
+                        )
+                    );
+
+
+                button.classList.add(
+                    "active"
+                );
+
+
+                renderEditor();
+
+            }
+        );
+
+    });
+
+
+/* =========================
+   EDITOR
+========================= */
+
+function renderEditor() {
+
+    if (
+        currentEditorPage === "pokemon"
+    ) {
+
+        renderPokemonEditor();
+
+    }
+
+    else if (
+        currentEditorPage === "trainers"
+    ) {
+
+        renderTrainerEditor();
+
+    }
+
+    else if (
+        currentEditorPage === "species"
+    ) {
+
+        renderSpeciesEditor();
+
+    }
+
+    else if (
+        currentEditorPage === "moves"
+    ) {
+
+        renderMoveEditor();
+
+    }
+
+    else if (
+        currentEditorPage === "abilities"
+    ) {
+
+        renderAbilityEditor();
+
+    }
+
+}
+
+
+/* =========================
+   POKÉMON
+========================= */
+
+function renderPokemonEditor() {
+
+    editorApp.innerHTML = `
+
+        <div class="editor-panel">
+
+            <h2>
+                Pokémon Individuais
+            </h2>
+
+            <div class="search-editor">
+
+                <input
+                    id="editor-search"
+                    placeholder="Pesquisar Pokémon..."
+                >
+
+            </div>
+
+            <div
+                id="pokemon-list"
+                class="item-list"
+            ></div>
+
+        </div>
+
+
+        <div class="editor-panel">
+
+            <h2>
+                Novo Pokémon
+            </h2>
+
+            <form id="pokemon-form">
+
+                <div class="field">
+
+                    <label>
+                        Espécie
+                    </label>
+
+                    <select
+                        id="pokemon-species"
+                    >
+
+                        ${
+                            species
+                                .map(s => `
+                                    <option
+                                        value="${s.id}"
+                                    >
+                                        ${s.name}
+                                    </option>
+                                `)
+                                .join("")
+                        }
+
+                    </select>
+
+                </div>
+
+
+                <div class="field">
+
+                    <label>
+                        Apelido
+                    </label>
+
+                    <input
+                        id="pokemon-nickname"
+                    >
+
+                </div>
+
+
+                <div class="field">
+
+                    <label>
+                        Gênero
+                    </label>
+
+                    <select id="pokemon-gender">
+
+                        <option>
+                            Macho
+                        </option>
+
+                        <option>
+                            Fêmea
+                        </option>
+
+                        <option>
+                            Desconhecido
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <div class="field">
+
+                    <label>
+                        Treinador
+                    </label>
+
+                    <select
+                        id="pokemon-trainer"
+                    >
+
+                        <option value="">
+                            Nenhum
+                        </option>
+
+                        ${
+                            trainers
+                                .map(t => `
+                                    <option
+                                        value="${t.id}"
+                                    >
+                                        ${t.name}
+                                    </option>
+                                `)
+                                .join("")
+                        }
+
+                    </select>
+
+                </div>
+
+
+                <div class="field">
+
+                    <label>
+                        Natureza
+                    </label>
+
+                    <input
+                        id="pokemon-nature"
+                    >
+
+                </div>
+
+
+                <h3>
+                    Atributos
+                </h3>
+
+
+                <div class="stats-grid">
+
+                    ${
+                        [
+                            "agilidade",
+                            "forca",
+                            "constituicao",
+                            "atencao",
+                            "determinacao",
+                            "gentileza",
+                            "sorte"
+                        ]
+
+                        .map(stat => `
+
+                            <div
+                                class="stat-editor"
+                            >
+
+                                <label>
+                                    ${capitalize(stat)}
+                                </label>
+
+                                <input
+                                    type="number"
+                                    placeholder="Base"
+                                    id="base-${stat}"
+                                >
+
+                                <input
+                                    type="number"
+                                    placeholder="Real"
+                                    id="real-${stat}"
+                                >
+
+                            </div>
+
+                        `)
+
+                        .join("")
+
+                    }
+
+                </div>
+
+
+                <br>
+
+
+                <div class="actions">
+
+                    <button
+                        type="button"
+                        class="primary"
+                        onclick="
+                            savePokemon()
+                        "
+                    >
+                        Criar Pokémon
+                    </button>
+
+                </div>
+
+            </form>
+
+        </div>
+
+    `;
+
+
+    renderPokemonEditorList();
+
+
+    document
+        .getElementById(
+            "editor-search"
+        )
+        .addEventListener(
+            "input",
+            renderPokemonEditorList
+        );
+
+}
+
+
+/* =========================
+   LISTA POKÉMON
+========================= */
+
+function renderPokemonEditorList() {
+
+    const container =
+        document.getElementById(
+            "pokemon-list"
+        );
+
+    if (!container) return;
+
+
+    const input =
+        document.getElementById(
+            "editor-search"
+        );
+
+
+    const query =
+        input
+            ? input.value
+                .toLowerCase()
+            : "";
+
+
+    const filtered =
+        pokemon.filter(p => {
+
+            const s =
+                species.find(
+                    s =>
+                        s.id ===
+                        p.speciesId
+                );
+
+            return (
+                p.nickname || ""
+            )
+            .toLowerCase()
+            .includes(query)
+
+            ||
+
+            (
+                s &&
+                s.name
+                    .toLowerCase()
+                    .includes(query)
+            );
+
+        });
+
+
+    container.innerHTML =
+
+        filtered.map(p => {
+
+            const s =
+                species.find(
+                    s =>
+                        s.id ===
+                        p.speciesId
+                );
+
+
+            return `
+
+                <div class="item">
+
+                    <span>
+
+                        ${
+                            p.nickname ||
+                            "Sem apelido"
+                        }
+
+                        —
+
+                        ${s.name}
+
+                    </span>
+
+                    <button
+                        onclick="
+                            editPokemon(
+                                '${p.id}'
+                            )
+                        "
+                    >
+                        Editar
+                    </button>
+
+                </div>
+
+            `;
+
+        })
+
+        .join("");
+
+}
+
+
+/* =========================
+   CRIAR POKÉMON
+========================= */
+
+function savePokemon() {
+
+    const speciesId =
+        document.getElementById(
+            "pokemon-species"
+        ).value;
+
+
+    const newPokemon = {
+
+        id:
+            "pokemon-" +
+            Date.now(),
+
+        speciesId:
+
+            speciesId,
+
+        status:
+            "capturado",
+
+        nickname:
+            document.getElementById(
+                "pokemon-nickname"
+            ).value,
+
+        gender:
+            document.getElementById(
+                "pokemon-gender"
+            ).value,
+
+        trainerId:
+            document.getElementById(
+                "pokemon-trainer"
+            ).value || null,
+
+        nature:
+            document.getElementById(
+                "pokemon-nature"
+            ).value || null,
+
+        stats: {
+
+            agilidade:
+                readStat("agilidade"),
+
+            forca:
+                readStat("forca"),
+
+            constituicao:
+                readStat("constituicao"),
+
+            atencao:
+                readStat("atencao"),
+
+            determinacao:
+                readStat("determinacao"),
+
+            gentileza:
+                readStat("gentileza"),
+
+            sorte:
+                readStat("sorte")
+
+        },
+
+        abilities: [],
+
+        moves: []
+
+    };
+
+
+    pokemon.push(
+        newPokemon
+    );
+
+
+    alert(
+        "Pokémon criado na memória do editor."
+    );
+
+
+    renderPokemonEditorList();
+
+}
+
+
+/* =========================
+   LER ATRIBUTO
+========================= */
+
+function readStat(name) {
+
+    return {
+
+        base:
+            Number(
+                document.getElementById(
+                    "base-" + name
+                ).value
+            ),
+
+        real:
+            Number(
+                document.getElementById(
+                    "real-" + name
+                ).value
+            )
+
+    };
+
+}
+
+
+/* =========================
+   OUTRAS ÁREAS
+========================= */
+
+function renderTrainerEditor() {
+
+    editorApp.innerHTML = `
+
+        <div class="editor-panel">
+
+            <h2>
+                Editar Treinadores
+            </h2>
+
+            <p>
+                Aqui serão cadastrados
+                nome, gênero, cidade natal,
+                região, classe, estrelas
+                e sprite.
+            </p>
+
+        </div>
+
+    `;
+
+}
+
+
+function renderSpeciesEditor() {
+
+    editorApp.innerHTML = `
+
+        <div class="editor-panel">
+
+            <h2>
+                Editar Espécies
+            </h2>
+
+            <p>
+                Aqui serão cadastrados
+                espécie, tipos, tamanho,
+                peso, habilidades,
+                atributos base e movimentos.
+            </p>
+
+        </div>
+
+    `;
+
+}
+
+
+function renderMoveEditor() {
+
+    editorApp.innerHTML = `
+
+        <div class="editor-panel">
+
+            <h2>
+                Editar Movimentos
+            </h2>
+
+            <p>
+                Aqui serão cadastrados
+                nome, tipo, custo de energia,
+                dados e descrição.
+            </p>
+
+        </div>
+
+    `;
+
+}
+
+
+function renderAbilityEditor() {
+
+    editorApp.innerHTML = `
+
+        <div class="editor-panel">
+
+            <h2>
+                Editar Habilidades
+            </h2>
+
+            <p>
+                Aqui serão cadastradas
+                as habilidades e suas
+                descrições.
+            </p>
+
+        </div>
+
+    `;
+
+}
+
+
+/* =========================
+   EDITAR
+========================= */
+
+function editPokemon(id) {
+
+    const p =
+        pokemon.find(
+            p => p.id === id
+        );
+
+    if (!p) return;
+
+
+    alert(
+        "Editor individual será aberto aqui."
+    );
+
+}
+
+
+/* =========================
+   UTILITÁRIO
+========================= */
+
+function capitalize(text) {
+
+    return (
+        text.charAt(0).toUpperCase() +
+        text.slice(1)
+    );
+
+}
