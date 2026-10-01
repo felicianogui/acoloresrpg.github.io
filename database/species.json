@@ -1,0 +1,2017 @@
+[
+    {
+        "id": "species-0025",
+        "nationalId": 25,
+        "name": "Pikachu",
+        "sprite": "https://archives.bulbagarden.net/media/upload/b/b2/Spr_5b_025_m.png",
+        "types": [
+            "Elétrico"
+        ],
+        "height": 0.4,
+        "weight": 6,
+        "abilities": [
+            "ability-0004"
+        ],
+        "baseStats": {
+            "agility": 6,
+            "strength": 4,
+            "constitution": 3,
+            "attention": 4,
+            "determination": 4,
+            "kindness": 5,
+            "luck": 2
+        },
+        "moves": [
+            "move-0005"
+        ],
+        "regionalVariation": "",
+        "local": [
+            "Floresta P. Verdejante (seca)"
+        ]
+    },
+    {
+        "id": "species-1788053645046-4",
+        "nationalId": 418,
+        "name": "Buizel",
+        "regionalVariation": "de Sinnoh",
+        "sprite": "https://archives.bulbagarden.net/media/upload/2/24/Spr_5b_418_m.png",
+        "types": [
+            "Água"
+        ],
+        "height": 0.7,
+        "weight": 29.5,
+        "abilities": [],
+        "baseStats": {
+            "agility": 0,
+            "strength": 0,
+            "constitution": 0,
+            "attention": 0,
+            "determination": 0,
+            "kindness": 0,
+            "luck": 0
+        },
+        "moves": [],
+        "local": [
+            "Desconhecida"
+        ]
+    },
+    {
+        "id": "species-1788053794542-713",
+        "nationalId": 419,
+        "name": "Floatzel",
+        "regionalVariation": "",
+        "sprite": "https://archives.bulbagarden.net/media/upload/7/71/Spr_5b_419_m.png",
+        "types": [
+            "Água"
+        ],
+        "height": 1.1,
+        "weight": 33.5,
+        "abilities": [
+            "ability-1788054036725-740"
+        ],
+        "baseStats": {
+            "agility": 7,
+            "strength": 7,
+            "constitution": 4,
+            "attention": 8,
+            "determination": 7,
+            "kindness": 7,
+            "luck": 2
+        },
+        "moves": [],
+        "local": [
+            "Desconhecida"
+        ]
+    },
+    {
+        "id": "species-1788232693673-216",
+        "nationalId": 2,
+        "name": "Ivysaur",
+        "regionalVariation": "",
+        "sprite": "https://archives.bulbagarden.net/media/upload/e/e1/Spr_5b_002.png",
+        "types": [
+            "Grama",
+            "Venenoso"
+        ],
+        "height": 1,
+        "weight": 13,
+        "abilities": [],
+        "baseStats": {
+            "agility": 4,
+            "strength": 4,
+            "constitution": 4,
+            "attention": 5,
+            "determination": 4,
+            "kindness": 6,
+            "luck": 2
+        },
+        "moves": [],
+        "local": [
+            "Desconhecida"
+        ]
+    },
+    {
+        "id": "species-1788309374959-365",
+        "nationalId": 58,
+        "name": "Growlithe",
+        "regionalVariation": "de Kanto",
+        "sprite": "https://archives.bulbagarden.net/media/upload/3/3f/Spr_5b_058.png",
+        "types": [
+            "Fogo"
+        ],
+        "height": 0.7,
+        "weight": 19,
+        "abilities": [],
+        "baseStats": {
+            "agility": 4,
+            "strength": 5,
+            "constitution": 3,
+            "attention": 3,
+            "determination": 5,
+            "kindness": 4,
+            "luck": 0
+        },
+        "moves": [],
+        "local": [
+            "Desconhecida"
+        ]
+    },
+    {
+        "id": "species-1788309428463-621",
+        "nationalId": 59,
+        "name": "Arcanine",
+        "regionalVariation": "de Kanto",
+        "sprite": "https://archives.bulbagarden.net/media/upload/6/6b/Spr_5b_059.png",
+        "types": [
+            "Fogo"
+        ],
+        "height": 1.9,
+        "weight": 155,
+        "abilities": [],
+        "baseStats": {
+            "agility": 6,
+            "strength": 7,
+            "constitution": 6,
+            "attention": 4,
+            "determination": 8,
+            "kindness": 6,
+            "luck": 0
+        },
+        "moves": [],
+        "local": [
+            "Desconhecida"
+        ]
+    },
+    {
+        "id": "species-1788309694983-156",
+        "nationalId": 948,
+        "name": "Toedscool",
+        "regionalVariation": "de Paldea",
+        "sprite": "https://www.smogon.com/forums/attachments/948-png.629249/",
+        "types": [
+            "Planta",
+            "Terra"
+        ],
+        "height": 0.9,
+        "weight": 33,
+        "abilities": [],
+        "baseStats": {
+            "agility": 5,
+            "strength": 3,
+            "constitution": 4,
+            "attention": 3,
+            "determination": 2,
+            "kindness": 5,
+            "luck": 1
+        },
+        "moves": [],
+        "local": [
+            "Desconhecida"
+        ]
+    },
+    {
+        "id": "species-1788309806974-192",
+        "nationalId": 167,
+        "name": "Spinarak",
+        "regionalVariation": "",
+        "sprite": "https://archives.bulbagarden.net/media/upload/9/95/Spr_5b_167.png",
+        "types": [
+            "Inseto",
+            "Venenoso"
+        ],
+        "height": 0.5,
+        "weight": 8.5,
+        "abilities": [],
+        "baseStats": {
+            "agility": 2,
+            "strength": 3,
+            "constitution": 3,
+            "attention": 6,
+            "determination": 3,
+            "kindness": 4,
+            "luck": 1
+        },
+        "moves": [],
+        "local": [
+            "Rota 01"
+        ]
+    },
+    {
+        "id": "species-1788309880958-44",
+        "nationalId": 278,
+        "name": "Wingull",
+        "regionalVariation": "",
+        "sprite": "https://archives.bulbagarden.net/media/upload/f/f6/Spr_5b_278.png",
+        "types": [
+            "Água",
+            "Voador"
+        ],
+        "height": 0.6,
+        "weight": 9.5,
+        "abilities": [],
+        "baseStats": {
+            "agility": 5,
+            "strength": 3,
+            "constitution": 2,
+            "attention": 7,
+            "determination": 4,
+            "kindness": 4,
+            "luck": 1
+        },
+        "moves": [],
+        "local": [
+            "Praia dos Surfistas"
+        ]
+    },
+    {
+        "id": "species-1788311362780-930",
+        "nationalId": 222,
+        "name": "Corsola",
+        "regionalVariation": "de Johto",
+        "sprite": "https://archives.bulbagarden.net/media/upload/e/e6/Spr_5b_222.png",
+        "types": [
+            "Água",
+            "Pedra"
+        ],
+        "height": 0.6,
+        "weight": 5,
+        "abilities": [],
+        "baseStats": {
+            "agility": 3,
+            "strength": 4,
+            "constitution": 6,
+            "attention": 4,
+            "determination": 4,
+            "kindness": 6,
+            "luck": 3
+        },
+        "moves": [],
+        "local": [
+            "Praia dos Surfistas"
+        ]
+    },
+    {
+        "id": "species-1788311491228-393",
+        "nationalId": 349,
+        "name": "Feebas",
+        "regionalVariation": "",
+        "sprite": "https://archives.bulbagarden.net/media/upload/4/40/Spr_5b_349.png",
+        "types": [
+            "Água"
+        ],
+        "height": 0.6,
+        "weight": 7.4,
+        "abilities": [],
+        "baseStats": {
+            "agility": 5,
+            "strength": 1,
+            "constitution": 3,
+            "attention": 3,
+            "determination": 1,
+            "kindness": 1,
+            "luck": 3
+        },
+        "moves": [],
+        "local": [
+            "Praia dos Surfistas"
+        ]
+    },
+    {
+        "id": "species-1788311799652-530",
+        "nationalId": 350,
+        "name": "Milotic",
+        "regionalVariation": "",
+        "sprite": "https://archives.bulbagarden.net/media/upload/a/a7/Spr_5b_350_m.png",
+        "types": [
+            "Água"
+        ],
+        "height": 6.2,
+        "weight": 162,
+        "abilities": [],
+        "baseStats": {
+            "agility": 5,
+            "strength": 5,
+            "constitution": 7,
+            "attention": 6,
+            "determination": 3,
+            "kindness": 6,
+            "luck": 4
+        },
+        "moves": [],
+        "local": [
+            "Desconhecida"
+        ]
+    },
+    {
+        "id": "species-1788311991700-412",
+        "nationalId": 90,
+        "name": "Shellder",
+        "regionalVariation": "",
+        "sprite": "https://archives.bulbagarden.net/media/upload/6/66/Spr_5b_090.png",
+        "types": [
+            "Água"
+        ],
+        "height": 0.3,
+        "weight": 4,
+        "abilities": [],
+        "baseStats": {
+            "agility": 3,
+            "strength": 3,
+            "constitution": 5,
+            "attention": 3,
+            "determination": 2,
+            "kindness": 2,
+            "luck": 1
+        },
+        "moves": [],
+        "local": [
+            "Praia dos Surfistas"
+        ]
+    },
+    {
+        "id": "species-1788312035028-29",
+        "nationalId": 91,
+        "name": "Cloyster",
+        "regionalVariation": "",
+        "sprite": "https://archives.bulbagarden.net/media/upload/f/f1/Spr_5b_091.png",
+        "types": [
+            "Água",
+            "Gelo"
+        ],
+        "height": 1.5,
+        "weight": 132.5,
+        "abilities": [],
+        "baseStats": {
+            "agility": 5,
+            "strength": 6,
+            "constitution": 9,
+            "attention": 5,
+            "determination": 3,
+            "kindness": 3,
+            "luck": 1
+        },
+        "moves": [],
+        "local": [
+            "Praia dos Surfistas"
+        ]
+    },
+    {
+        "id": "species-1788312100156-557",
+        "nationalId": 183,
+        "name": "Marill",
+        "regionalVariation": "",
+        "sprite": "https://archives.bulbagarden.net/media/upload/3/3d/Spr_5b_183.png",
+        "types": [
+            "Água",
+            "Fada"
+        ],
+        "height": 0.4,
+        "weight": 8.5,
+        "abilities": [],
+        "baseStats": {
+            "agility": 3,
+            "strength": 2,
+            "constitution": 4,
+            "attention": 2,
+            "determination": 4,
+            "kindness": 3,
+            "luck": 4
+        },
+        "moves": [],
+        "local": [
+            "Praia dos Surfistas"
+        ]
+    },
+    {
+        "id": "species-1788312209556-136",
+        "nationalId": 179,
+        "name": "Mareep",
+        "regionalVariation": "",
+        "sprite": "https://archives.bulbagarden.net/media/upload/0/04/Spr_5b_179.png",
+        "types": [
+            "Elétrico"
+        ],
+        "height": 0.6,
+        "weight": 7.8,
+        "abilities": [],
+        "baseStats": {
+            "agility": 3,
+            "strength": 4,
+            "constitution": 4,
+            "attention": 3,
+            "determination": 3,
+            "kindness": 5,
+            "luck": 1
+        },
+        "moves": [],
+        "local": [
+            "Rota 01"
+        ]
+    },
+    {
+        "id": "species-1788312263635-357",
+        "nationalId": 180,
+        "name": "Flaaffy",
+        "regionalVariation": "",
+        "sprite": "https://archives.bulbagarden.net/media/upload/3/3c/Spr_5b_180.png",
+        "types": [
+            "Elétrico"
+        ],
+        "height": 0.8,
+        "weight": 13.3,
+        "abilities": [],
+        "baseStats": {
+            "agility": 3,
+            "strength": 5,
+            "constitution": 5,
+            "attention": 3,
+            "determination": 3,
+            "kindness": 6,
+            "luck": 3
+        },
+        "moves": [],
+        "local": [
+            "Desconhecida"
+        ]
+    },
+    {
+        "id": "species-1788312318643-974",
+        "nationalId": 762,
+        "name": "Steenee",
+        "regionalVariation": "",
+        "sprite": "https://www.smogon.com/forums/attachments/762-gif.369401/",
+        "types": [
+            "Grama"
+        ],
+        "height": 0.7,
+        "weight": 8.2,
+        "abilities": [],
+        "baseStats": {
+            "agility": 4,
+            "strength": 3,
+            "constitution": 4,
+            "attention": 3,
+            "determination": 5,
+            "kindness": 4,
+            "luck": 2
+        },
+        "moves": [],
+        "local": [
+            "Floresta P. Verdejante (seca)"
+        ]
+    },
+    {
+        "id": "species-1788806187126-73",
+        "nationalId": 27,
+        "name": "Sandshrew",
+        "regionalVariation": "de Kanto",
+        "local": [
+            "Desconhecida"
+        ],
+        "sprite": "https://archives.bulbagarden.net/media/upload/1/17/Spr_5b_027.png",
+        "types": [
+            "Terra"
+        ],
+        "height": 0.6,
+        "weight": 12,
+        "abilities": [],
+        "baseStats": {
+            "agility": 3,
+            "strength": 5,
+            "constitution": 3,
+            "attention": 4,
+            "determination": 3,
+            "kindness": 3,
+            "luck": 1
+        },
+        "moves": []
+    },
+    {
+        "id": "species-1788806259978-885",
+        "nationalId": 27,
+        "name": "Sandslash",
+        "regionalVariation": "de Kanto",
+        "local": [
+            "Desconhecida"
+        ],
+        "sprite": "https://archives.bulbagarden.net/media/upload/b/b8/Spr_5b_028.png",
+        "types": [
+            "Terra"
+        ],
+        "height": 1,
+        "weight": 29.5,
+        "abilities": [],
+        "baseStats": {
+            "agility": 4,
+            "strength": 6,
+            "constitution": 5,
+            "attention": 5,
+            "determination": 4,
+            "kindness": 3,
+            "luck": 1
+        },
+        "moves": []
+    },
+    {
+        "id": "species-1788806380835-211",
+        "nationalId": 37,
+        "name": "Vulpix",
+        "regionalVariation": "de Kanto",
+        "local": [
+            "Desconhecida"
+        ],
+        "sprite": "https://archives.bulbagarden.net/media/upload/e/ec/Spr_5b_037.png",
+        "types": [
+            "Fogo"
+        ],
+        "height": 0.6,
+        "weight": 9.9,
+        "abilities": [
+            "ability-1788651466956-492"
+        ],
+        "baseStats": {
+            "agility": 4,
+            "strength": 3,
+            "constitution": 3,
+            "attention": 4,
+            "determination": 3,
+            "kindness": 3,
+            "luck": 2
+        },
+        "moves": []
+    },
+    {
+        "id": "species-1788806490603-506",
+        "nationalId": 52,
+        "name": "Meowth",
+        "regionalVariation": "de Alola",
+        "local": [
+            "Desconhecida"
+        ],
+        "sprite": "https://www.smogon.com/forums/attachments/052-png.113994/",
+        "types": [
+            "Sombrio"
+        ],
+        "height": 0.4,
+        "weight": 4.2,
+        "abilities": [
+            "ability-1788651187901-89",
+            "ability-1788746370485-858"
+        ],
+        "baseStats": {
+            "agility": 6,
+            "strength": 3,
+            "constitution": 3,
+            "attention": 5,
+            "determination": 3,
+            "kindness": 1,
+            "luck": 0
+        },
+        "moves": []
+    },
+    {
+        "id": "species-1788806582668-177",
+        "nationalId": 74,
+        "name": "Geodude",
+        "regionalVariation": "de Kanto",
+        "local": [
+            "Desconhecida"
+        ],
+        "sprite": "https://archives.bulbagarden.net/media/upload/9/90/Spr_5b_074.png",
+        "types": [
+            "Pedra",
+            "Terra"
+        ],
+        "height": 0.4,
+        "weight": 20,
+        "abilities": [
+            "ability-1788746041872-600"
+        ],
+        "baseStats": {
+            "agility": 2,
+            "strength": 5,
+            "constitution": 5,
+            "attention": 2,
+            "determination": 2,
+            "kindness": 3,
+            "luck": 1
+        },
+        "moves": []
+    },
+    {
+        "id": "species-1788806682546-570",
+        "nationalId": 88,
+        "name": "Grimer",
+        "regionalVariation": "de Alola",
+        "local": [
+            "Desconhecida"
+        ],
+        "sprite": "https://www.smogon.com/forums/attachments/088-png.102268/",
+        "types": [
+            "Venenoso",
+            "Sombrio"
+        ],
+        "height": 0.7,
+        "weight": 42,
+        "abilities": [],
+        "baseStats": {
+            "agility": 2,
+            "strength": 5,
+            "constitution": 5,
+            "attention": 2,
+            "determination": 1,
+            "kindness": 1,
+            "luck": 0
+        },
+        "moves": []
+    },
+    {
+        "id": "species-1788806810378-807",
+        "nationalId": 95,
+        "name": "Onix",
+        "regionalVariation": "",
+        "local": [
+            "Desconhecida"
+        ],
+        "sprite": "https://archives.bulbagarden.net/media/upload/2/29/Spr_5b_095.png",
+        "types": [
+            "Pedra",
+            "Terra"
+        ],
+        "height": 8.8,
+        "weight": 210,
+        "abilities": [
+            "ability-1788746041872-600"
+        ],
+        "baseStats": {
+            "agility": 5,
+            "strength": 6,
+            "constitution": 8,
+            "attention": 3,
+            "determination": 3,
+            "kindness": 2,
+            "luck": 0
+        },
+        "moves": []
+    },
+    {
+        "id": "species-1788806892378-309",
+        "nationalId": 109,
+        "name": "Koffing",
+        "regionalVariation": "de Kanto",
+        "local": [
+            "Desconhecida"
+        ],
+        "sprite": "https://archives.bulbagarden.net/media/upload/b/ba/Spr_5b_109.png",
+        "types": [
+            "Venenoso"
+        ],
+        "height": 0.6,
+        "weight": 1,
+        "abilities": [],
+        "baseStats": {
+            "agility": 3,
+            "strength": 4,
+            "constitution": 4,
+            "attention": 3,
+            "determination": 2,
+            "kindness": 1,
+            "luck": 0
+        },
+        "moves": []
+    },
+    {
+        "id": "species-1788806969433-764",
+        "nationalId": 125,
+        "name": "Electabuzz",
+        "regionalVariation": "",
+        "local": [
+            "Desconhecida"
+        ],
+        "sprite": "https://archives.bulbagarden.net/media/upload/7/79/Spr_5b_125.png",
+        "types": [
+            "Elétrico"
+        ],
+        "height": 1.1,
+        "weight": 30,
+        "abilities": [
+            "ability-1788652661075-179"
+        ],
+        "baseStats": {
+            "agility": 7,
+            "strength": 5,
+            "constitution": 5,
+            "attention": 4,
+            "determination": 4,
+            "kindness": 2,
+            "luck": 0
+        },
+        "moves": []
+    },
+    {
+        "id": "species-1788807029865-996",
+        "nationalId": 126,
+        "name": "Magmar",
+        "regionalVariation": "",
+        "local": [
+            "Desconhecida"
+        ],
+        "sprite": "https://archives.bulbagarden.net/media/upload/a/a9/Spr_5b_126.png",
+        "types": [
+            "Fogo"
+        ],
+        "height": 1.3,
+        "weight": 44.5,
+        "abilities": [
+            "ability-1788652085755-914"
+        ],
+        "baseStats": {
+            "agility": 6,
+            "strength": 6,
+            "constitution": 4,
+            "attention": 3,
+            "determination": 4,
+            "kindness": 1,
+            "luck": 0
+        },
+        "moves": []
+    },
+    {
+        "id": "species-1788807141273-566",
+        "nationalId": 201,
+        "name": "Unown",
+        "regionalVariation": "",
+        "local": [],
+        "sprite": "https://archives.bulbagarden.net/media/upload/7/77/Spr_5b_201.png",
+        "types": [
+            "Psíquico"
+        ],
+        "height": 0.5,
+        "weight": 5,
+        "abilities": [],
+        "baseStats": {
+            "agility": 3,
+            "strength": 3,
+            "constitution": 3,
+            "attention": 9,
+            "determination": 1,
+            "kindness": 0,
+            "luck": 0
+        },
+        "moves": []
+    },
+    {
+        "id": "species-1788807312346-38",
+        "nationalId": 322,
+        "name": "Numel",
+        "regionalVariation": "",
+        "local": [
+            "Desconhecida"
+        ],
+        "sprite": "https://archives.bulbagarden.net/media/upload/1/14/Spr_5b_322_m.png",
+        "types": [
+            "Fogo",
+            "Terra"
+        ],
+        "height": 0.7,
+        "weight": 24,
+        "abilities": [
+            "ability-1788650869892-186",
+            "ability-1788746231358-836"
+        ],
+        "baseStats": {
+            "agility": 3,
+            "strength": 4,
+            "constitution": 4,
+            "attention": 2,
+            "determination": 2,
+            "kindness": 6,
+            "luck": 1
+        },
+        "moves": []
+    },
+    {
+        "id": "species-1788807473130-513",
+        "nationalId": 323,
+        "name": "Camerupt",
+        "regionalVariation": "",
+        "local": [
+            "Desconhecida"
+        ],
+        "sprite": "https://archives.bulbagarden.net/media/upload/4/48/Spr_5b_323_m.png",
+        "types": [
+            "Fogo",
+            "Terra"
+        ],
+        "height": 1.9,
+        "weight": 220,
+        "abilities": [],
+        "baseStats": {
+            "agility": 3,
+            "strength": 6,
+            "constitution": 6,
+            "attention": 3,
+            "determination": 3,
+            "kindness": 7,
+            "luck": 2
+        },
+        "moves": []
+    },
+    {
+        "id": "species-1788807611481-543",
+        "nationalId": 543,
+        "name": "Venipede",
+        "regionalVariation": "",
+        "local": [
+            "Desconhecida"
+        ],
+        "sprite": "https://archives.bulbagarden.net/media/upload/5/5f/Spr_5b_543.png",
+        "types": [
+            "Inseto",
+            "Venenoso"
+        ],
+        "height": 0.4,
+        "weight": 5.3,
+        "abilities": [
+            "ability-1788652526491-885"
+        ],
+        "baseStats": {
+            "agility": 4,
+            "strength": 3,
+            "constitution": 2,
+            "attention": 3,
+            "determination": 3,
+            "kindness": 1,
+            "luck": 0
+        },
+        "moves": []
+    },
+    {
+        "id": "species-1788807676649-549",
+        "nationalId": 544,
+        "name": "Whirlipede",
+        "regionalVariation": "",
+        "local": [],
+        "sprite": "https://archives.bulbagarden.net/media/upload/c/c1/Spr_5b_544.png",
+        "types": [
+            "Inseto",
+            "Venenoso"
+        ],
+        "height": 1.2,
+        "weight": 58.5,
+        "abilities": [
+            "ability-1788652526491-885"
+        ],
+        "baseStats": {
+            "agility": 4,
+            "strength": 4,
+            "constitution": 5,
+            "attention": 4,
+            "determination": 3,
+            "kindness": 1,
+            "luck": 0
+        },
+        "moves": []
+    },
+    {
+        "id": "species-1788807762009-597",
+        "nationalId": 545,
+        "name": "Scolipede",
+        "regionalVariation": "",
+        "local": [
+            "Desconhecida"
+        ],
+        "sprite": "https://archives.bulbagarden.net/media/upload/9/9b/Spr_5b_545.png",
+        "types": [
+            "Inseto",
+            "Venenoso"
+        ],
+        "height": 2.5,
+        "weight": 200.5,
+        "abilities": [
+            "ability-1788652526491-885"
+        ],
+        "baseStats": {
+            "agility": 7,
+            "strength": 6,
+            "constitution": 7,
+            "attention": 5,
+            "determination": 5,
+            "kindness": 4,
+            "luck": 1
+        },
+        "moves": []
+    },
+    {
+        "id": "species-1788807889449-282",
+        "nationalId": 554,
+        "name": "Darumaka",
+        "regionalVariation": "de Unova",
+        "local": [
+            "Desconhecida"
+        ],
+        "sprite": "https://archives.bulbagarden.net/media/upload/1/16/Spr_5b_554.png",
+        "types": [
+            "Fogo"
+        ],
+        "height": 0.6,
+        "weight": 37.5,
+        "abilities": [
+            "ability-1788651982563-146"
+        ],
+        "baseStats": {
+            "agility": 3,
+            "strength": 6,
+            "constitution": 5,
+            "attention": 2,
+            "determination": 2,
+            "kindness": 4,
+            "luck": 1
+        },
+        "moves": []
+    },
+    {
+        "id": "species-1788808165680-593",
+        "nationalId": 823,
+        "name": "Corviknight",
+        "regionalVariation": "",
+        "local": [
+            "Desconhecida"
+        ],
+        "sprite": "https://www.smogon.com/forums/attachments/corviknight_f-gif.189563/",
+        "types": [
+            "Voador",
+            "Aço"
+        ],
+        "height": 2.2,
+        "weight": 75,
+        "abilities": [
+            "ability-1788652421211-168",
+            "ability-1788745945181-470"
+        ],
+        "baseStats": {
+            "agility": 4,
+            "strength": 6,
+            "constitution": 6,
+            "attention": 7,
+            "determination": 5,
+            "kindness": 5,
+            "luck": 0
+        },
+        "moves": []
+    },
+    {
+        "id": "species-1789618483298-192",
+        "nationalId": 279,
+        "name": "Pelipper",
+        "regionalVariation": "",
+        "local": [
+            "Praia dos Surfistas"
+        ],
+        "sprite": "https://archives.bulbagarden.net/media/upload/2/2e/Spr_5b_279.png",
+        "types": [
+            "Água",
+            "Voador"
+        ],
+        "height": 1.2,
+        "weight": 28,
+        "abilities": [
+            "ability-1788744739055-502",
+            "ability-1788744965655-387"
+        ],
+        "baseStats": {
+            "agility": 4,
+            "strength": 5,
+            "constitution": 5,
+            "attention": 8,
+            "determination": 5,
+            "kindness": 5,
+            "luck": 3
+        },
+        "moves": []
+    },
+    {
+        "id": "species-1789618551361-960",
+        "nationalId": 318,
+        "name": "Carvanha",
+        "regionalVariation": "",
+        "local": [
+            "Praia dos Surfistas"
+        ],
+        "sprite": "https://archives.bulbagarden.net/media/upload/f/f9/Spr_5b_318.png",
+        "types": [
+            "Água",
+            "Sombrio"
+        ],
+        "height": 0.8,
+        "weight": 20.8,
+        "abilities": [
+            "ability-1788744632991-795",
+            "ability-1788745465102-921"
+        ],
+        "baseStats": {
+            "agility": 4,
+            "strength": 5,
+            "constitution": 3,
+            "attention": 4,
+            "determination": 5,
+            "kindness": 1,
+            "luck": 0
+        },
+        "moves": []
+    },
+    {
+        "id": "species-1789618643585-525",
+        "nationalId": 319,
+        "name": "Sharpedo",
+        "regionalVariation": "",
+        "local": [
+            "Praia dos Surfistas"
+        ],
+        "sprite": "https://archives.bulbagarden.net/media/upload/b/b0/Spr_5b_319.png",
+        "types": [
+            "Água",
+            "Sombrio"
+        ],
+        "height": 1.8,
+        "weight": 88.8,
+        "abilities": [
+            "ability-1788744632991-795",
+            "ability-1788745465102-921"
+        ],
+        "baseStats": {
+            "agility": 7,
+            "strength": 7,
+            "constitution": 4,
+            "attention": 6,
+            "determination": 7,
+            "kindness": 1,
+            "luck": 0
+        },
+        "moves": []
+    },
+    {
+        "id": "species-1789618713225-60",
+        "nationalId": 427,
+        "name": "Buneary",
+        "regionalVariation": "",
+        "local": [
+            "Floresta P. Verdejante (seca)"
+        ],
+        "sprite": "https://archives.bulbagarden.net/media/upload/0/09/Spr_5b_427.png",
+        "types": [
+            "Normal"
+        ],
+        "height": 0.4,
+        "weight": 5.5,
+        "abilities": [],
+        "baseStats": {
+            "agility": 6,
+            "strength": 4,
+            "constitution": 4,
+            "attention": 3,
+            "determination": 3,
+            "kindness": 5,
+            "luck": 2
+        },
+        "moves": []
+    },
+    {
+        "id": "species-1789618856080-668",
+        "nationalId": 708,
+        "name": "Phantump",
+        "regionalVariation": "",
+        "local": [
+            "Floresta P. Verdejante (seca)"
+        ],
+        "sprite": "https://www.smogon.com/forums/attachments/708-gif.658952/",
+        "types": [
+            "Grama",
+            "Fantasma"
+        ],
+        "height": 0.4,
+        "weight": 7,
+        "abilities": [
+            "ability-1788652108603-67",
+            "ability-1788744259784-390"
+        ],
+        "baseStats": {
+            "agility": 3,
+            "strength": 4,
+            "constitution": 4,
+            "attention": 5,
+            "determination": 3,
+            "kindness": 3,
+            "luck": 1
+        },
+        "moves": []
+    },
+    {
+        "id": "species-1789618953936-113",
+        "nationalId": 709,
+        "name": "Trevenant",
+        "regionalVariation": "",
+        "local": [
+            "Floresta P. Verdejante (seca)"
+        ],
+        "sprite": "https://www.smogon.com/forums/attachments/709-png.293924/",
+        "types": [
+            "Grama",
+            "Fantasma"
+        ],
+        "height": 1.5,
+        "weight": 71,
+        "abilities": [
+            "ability-1788652108603-67",
+            "ability-1788744259784-390"
+        ],
+        "baseStats": {
+            "agility": 4,
+            "strength": 6,
+            "constitution": 6,
+            "attention": 5,
+            "determination": 5,
+            "kindness": 4,
+            "luck": 0
+        },
+        "moves": []
+    },
+    {
+        "id": "species-1789619046416-496",
+        "nationalId": 940,
+        "name": "Wattrel",
+        "regionalVariation": "",
+        "local": [
+            "Praia dos Surfistas"
+        ],
+        "sprite": "a",
+        "types": [
+            "Elétrico",
+            "Voador"
+        ],
+        "height": 0.4,
+        "weight": 3.6,
+        "abilities": [
+            "ability-1788650624013-262",
+            "ability-1788745639990-133"
+        ],
+        "baseStats": {
+            "agility": 5,
+            "strength": 4,
+            "constitution": 3,
+            "attention": 3,
+            "determination": 3,
+            "kindness": 3,
+            "luck": 0
+        },
+        "moves": []
+    },
+    {
+        "id": "species-1789619139960-728",
+        "nationalId": 941,
+        "name": "Kilowattrel",
+        "regionalVariation": "",
+        "local": [
+            "Praia dos Surfistas"
+        ],
+        "sprite": "https://www.smogon.com/forums/attachments/941-png.512404/",
+        "types": [
+            "Elétrico",
+            "Voador"
+        ],
+        "height": 1.4,
+        "weight": 38.6,
+        "abilities": [
+            "ability-1788650624013-262",
+            "ability-1788745639990-133"
+        ],
+        "baseStats": {
+            "agility": 8,
+            "strength": 6,
+            "constitution": 5,
+            "attention": 5,
+            "determination": 6,
+            "kindness": 3,
+            "luck": 0
+        },
+        "moves": []
+    },
+    {
+        "id": "species-1789619245616-691",
+        "nationalId": 21,
+        "name": "Spearow",
+        "regionalVariation": "",
+        "local": [
+            "Montes Amarrontes (mirante)"
+        ],
+        "sprite": "https://archives.bulbagarden.net/media/upload/0/05/Spr_5b_021.png",
+        "types": [
+            "Normal",
+            "Voador"
+        ],
+        "height": 0.3,
+        "weight": 2,
+        "abilities": [
+            "ability-1788653105018-608",
+            "ability-1788744965655-387"
+        ],
+        "baseStats": {
+            "agility": 5,
+            "strength": 3,
+            "constitution": 3,
+            "attention": 5,
+            "determination": 4,
+            "kindness": 1,
+            "luck": 0
+        },
+        "moves": []
+    },
+    {
+        "id": "species-1789619300672-440",
+        "nationalId": 22,
+        "name": "Fearow",
+        "regionalVariation": "",
+        "local": [
+            "Montes Amarrontes (mirante)"
+        ],
+        "sprite": "https://archives.bulbagarden.net/media/upload/2/29/Spr_5b_022.png",
+        "types": [
+            "Normal",
+            "Voador"
+        ],
+        "height": 1.2,
+        "weight": 38,
+        "abilities": [
+            "ability-1788653105018-608",
+            "ability-1788744965655-387"
+        ],
+        "baseStats": {
+            "agility": 6,
+            "strength": 5,
+            "constitution": 4,
+            "attention": 6,
+            "determination": 7,
+            "kindness": 2,
+            "luck": 0
+        },
+        "moves": []
+    },
+    {
+        "id": "species-1789619407112-645",
+        "nationalId": 227,
+        "name": "Skarmory",
+        "regionalVariation": "",
+        "local": [
+            "Montes Amarrontes (mirante)"
+        ],
+        "sprite": "https://archives.bulbagarden.net/media/upload/e/e6/Spr_5b_227.png",
+        "types": [
+            "Aço",
+            "Voador"
+        ],
+        "height": 1.7,
+        "weight": 50.5,
+        "abilities": [
+            "ability-1788744965655-387",
+            "ability-1788746041872-600"
+        ],
+        "baseStats": {
+            "agility": 5,
+            "strength": 6,
+            "constitution": 7,
+            "attention": 6,
+            "determination": 6,
+            "kindness": 3,
+            "luck": 1
+        },
+        "moves": []
+    },
+    {
+        "id": "species-1789619464783-838",
+        "nationalId": 807,
+        "name": "Zeraora",
+        "regionalVariation": "",
+        "local": [
+            "Montes Amarrontes (mirante)"
+        ],
+        "sprite": "b",
+        "types": [
+            "Elétrico"
+        ],
+        "height": 1.5,
+        "weight": 44.5,
+        "abilities": [
+            "ability-1788650624013-262"
+        ],
+        "baseStats": {
+            "agility": 9,
+            "strength": 7,
+            "constitution": 6,
+            "attention": 8,
+            "determination": 9,
+            "kindness": 4,
+            "luck": 3
+        },
+        "moves": []
+    },
+    {
+        "id": "species-1789619603007-410",
+        "nationalId": 19,
+        "name": "Rattata",
+        "regionalVariation": "de Alola",
+        "local": [
+            "Rota 01",
+            "Floresta P. Verdejante (seca)"
+        ],
+        "sprite": "https://www.smogon.com/forums/attachments/019-gif.171350/",
+        "types": [
+            "Sombrio",
+            "Normal"
+        ],
+        "height": 0.3,
+        "weight": 3.8,
+        "abilities": [
+            "ability-1788743250640-470",
+            "ability-1788746419325-765"
+        ],
+        "baseStats": {
+            "agility": 5,
+            "strength": 3,
+            "constitution": 3,
+            "attention": 4,
+            "determination": 2,
+            "kindness": 2,
+            "luck": 0
+        },
+        "moves": []
+    },
+    {
+        "id": "species-1789619676863-531",
+        "nationalId": 41,
+        "name": "Zubat",
+        "regionalVariation": "",
+        "local": [
+            "Floresta P. Verdejante (seca)"
+        ],
+        "sprite": "https://archives.bulbagarden.net/media/upload/0/01/Spr_5b_041_m.png",
+        "types": [
+            "Venenoso",
+            "Voador"
+        ],
+        "height": 0.8,
+        "weight": 7.5,
+        "abilities": [
+            "ability-1788652878331-376",
+            "ability-1788744185664-898"
+        ],
+        "baseStats": {
+            "agility": 4,
+            "strength": 3,
+            "constitution": 3,
+            "attention": 5,
+            "determination": 2,
+            "kindness": 2,
+            "luck": 0
+        },
+        "moves": []
+    },
+    {
+        "id": "species-1789619738271-570",
+        "nationalId": 42,
+        "name": "Golbat",
+        "regionalVariation": "",
+        "local": [
+            "Floresta P. Verdejante (seca)"
+        ],
+        "sprite": "https://archives.bulbagarden.net/media/upload/5/5e/Spr_5b_042_m.png",
+        "types": [
+            "Venenoso",
+            "Voador"
+        ],
+        "height": 1.6,
+        "weight": 55,
+        "abilities": [
+            "ability-1788652878331-376",
+            "ability-1788744185664-898"
+        ],
+        "baseStats": {
+            "agility": 6,
+            "strength": 5,
+            "constitution": 5,
+            "attention": 6,
+            "determination": 3,
+            "kindness": 3,
+            "luck": 0
+        },
+        "moves": []
+    },
+    {
+        "id": "species-1789619841023-391",
+        "nationalId": 163,
+        "name": "Hoothoot",
+        "regionalVariation": "",
+        "local": [
+            "Rota 01",
+            "Floresta P. Verdejante (alagada)",
+            "Montes Amarrontes (mirante)"
+        ],
+        "sprite": "https://archives.bulbagarden.net/media/upload/7/74/Spr_5b_163.png",
+        "types": [
+            "Normal",
+            "Voador"
+        ],
+        "height": 0.7,
+        "weight": 21.2,
+        "abilities": [
+            "ability-1788744207064-486",
+            "ability-1788744965655-387"
+        ],
+        "baseStats": {
+            "agility": 3,
+            "strength": 3,
+            "constitution": 4,
+            "attention": 6,
+            "determination": 3,
+            "kindness": 4,
+            "luck": 0
+        },
+        "moves": []
+    },
+    {
+        "id": "species-1789619927150-777",
+        "nationalId": 164,
+        "name": "Noctowl",
+        "regionalVariation": "",
+        "local": [
+            "Floresta P. Verdejante (seca)",
+            "Floresta P. Verdejante (alagada)"
+        ],
+        "sprite": "https://archives.bulbagarden.net/media/upload/4/4d/Spr_5b_164.png",
+        "types": [
+            "Normal",
+            "Voador"
+        ],
+        "height": 1.6,
+        "weight": 40.8,
+        "abilities": [
+            "ability-1788744207064-486",
+            "ability-1788744965655-387"
+        ],
+        "baseStats": {
+            "agility": 5,
+            "strength": 5,
+            "constitution": 5,
+            "attention": 9,
+            "determination": 6,
+            "kindness": 6,
+            "luck": 0
+        },
+        "moves": []
+    },
+    {
+        "id": "species-1789620058686-927",
+        "nationalId": 228,
+        "name": "Houndour",
+        "regionalVariation": "",
+        "local": [
+            "Desconhecida"
+        ],
+        "sprite": "https://archives.bulbagarden.net/media/upload/f/f9/Spr_5b_228.png",
+        "types": [
+            "Sombrio",
+            "Fogo"
+        ],
+        "height": 0.6,
+        "weight": 10.9,
+        "abilities": [
+            "ability-1788651466956-492",
+            "ability-1788744677823-788"
+        ],
+        "baseStats": {
+            "agility": 4,
+            "strength": 5,
+            "constitution": 3,
+            "attention": 6,
+            "determination": 5,
+            "kindness": 1,
+            "luck": 0
+        },
+        "moves": []
+    },
+    {
+        "id": "species-1789620111574-811",
+        "nationalId": 229,
+        "name": "Houndoom",
+        "regionalVariation": "",
+        "local": [
+            "Desconhecida"
+        ],
+        "sprite": "https://archives.bulbagarden.net/media/upload/3/3c/Spr_5b_229_m.png",
+        "types": [
+            "Sombrio",
+            "Fogo"
+        ],
+        "height": 1.4,
+        "weight": 35,
+        "abilities": [],
+        "baseStats": {
+            "agility": 6,
+            "strength": 7,
+            "constitution": 5,
+            "attention": 7,
+            "determination": 9,
+            "kindness": 4,
+            "luck": 0
+        },
+        "moves": []
+    },
+    {
+        "id": "species-1789620193054-646",
+        "nationalId": 261,
+        "name": "Poochyena",
+        "regionalVariation": "",
+        "local": [
+            "Rota 01",
+            "Floresta P. Verdejante (seca)"
+        ],
+        "sprite": "https://archives.bulbagarden.net/media/upload/3/3e/Spr_5b_261.png",
+        "types": [
+            "Sombrio"
+        ],
+        "height": 0.5,
+        "weight": 13.6,
+        "abilities": [
+            "ability-1788743250640-470",
+            "ability-1788745593870-520"
+        ],
+        "baseStats": {
+            "agility": 3,
+            "strength": 3,
+            "constitution": 3,
+            "attention": 4,
+            "determination": 3,
+            "kindness": 1,
+            "luck": 0
+        },
+        "moves": []
+    },
+    {
+        "id": "species-1789620289877-461",
+        "nationalId": 262,
+        "name": "Mightyena",
+        "regionalVariation": "",
+        "local": [
+            "Floresta P. Verdejante (seca)"
+        ],
+        "sprite": "https://archives.bulbagarden.net/media/upload/e/e1/Spr_5b_262.png",
+        "types": [
+            "Sombrio"
+        ],
+        "height": 1,
+        "weight": 37,
+        "abilities": [
+            "ability-1788744606295-34",
+            "ability-1788745593870-520"
+        ],
+        "baseStats": {
+            "agility": 5,
+            "strength": 6,
+            "constitution": 5,
+            "attention": 5,
+            "determination": 10,
+            "kindness": 4,
+            "luck": 1
+        },
+        "moves": []
+    },
+    {
+        "id": "species-1789620400349-235",
+        "nationalId": 942,
+        "name": "Maschiff",
+        "regionalVariation": "",
+        "local": [
+            "Desconhecida"
+        ],
+        "sprite": "https://www.smogon.com/forums/attachments/942-png.512406/",
+        "types": [
+            "Sombrio"
+        ],
+        "height": 0.5,
+        "weight": 16,
+        "abilities": [
+            "ability-1788743250640-470",
+            "ability-1788744606295-34"
+        ],
+        "baseStats": {
+            "agility": 4,
+            "strength": 4,
+            "constitution": 4,
+            "attention": 5,
+            "determination": 7,
+            "kindness": 4,
+            "luck": 1
+        },
+        "moves": []
+    },
+    {
+        "id": "species-1789620475781-17",
+        "nationalId": 77,
+        "name": "Ponyta",
+        "regionalVariation": "",
+        "local": [],
+        "sprite": "https://archives.bulbagarden.net/media/upload/b/bf/Spr_5b_077.png",
+        "types": [
+            "Fogo"
+        ],
+        "height": 1,
+        "weight": 30,
+        "abilities": [
+            "ability-1788651466956-492",
+            "ability-1788743250640-470"
+        ],
+        "baseStats": {
+            "agility": 6,
+            "strength": 5,
+            "constitution": 4,
+            "attention": 3,
+            "determination": 2,
+            "kindness": 5,
+            "luck": 1
+        },
+        "moves": []
+    },
+    {
+        "id": "species-1789620564733-667",
+        "nationalId": 165,
+        "name": "Ledyba",
+        "regionalVariation": "",
+        "local": [
+            "Rota 01"
+        ],
+        "sprite": "https://archives.bulbagarden.net/media/upload/8/8a/Spr_5b_165_m.png",
+        "types": [
+            "Inseto",
+            "Voador"
+        ],
+        "height": 1,
+        "weight": 10.8,
+        "abilities": [
+            "ability-1788652526491-885",
+            "ability-1788745185975-638"
+        ],
+        "baseStats": {
+            "agility": 4,
+            "strength": 3,
+            "constitution": 4,
+            "attention": 4,
+            "determination": 1,
+            "kindness": 4,
+            "luck": 2
+        },
+        "moves": []
+    },
+    {
+        "id": "species-1789620709629-278",
+        "nationalId": 179,
+        "name": "Mareep",
+        "regionalVariation": "",
+        "local": [
+            "Rota 01"
+        ],
+        "sprite": "https://archives.bulbagarden.net/media/upload/0/04/Spr_5b_179.png",
+        "types": [
+            "Elétrico"
+        ],
+        "height": 0.6,
+        "weight": 7.8,
+        "abilities": [
+            "ability-1788652661075-179",
+            "ability-1788745818662-726"
+        ],
+        "baseStats": {
+            "agility": 3,
+            "strength": 4,
+            "constitution": 4,
+            "attention": 2,
+            "determination": 2,
+            "kindness": 5,
+            "luck": 1
+        },
+        "moves": []
+    },
+    {
+        "id": "species-1789620828452-661",
+        "nationalId": 180,
+        "name": "Flaaffy",
+        "regionalVariation": "",
+        "local": [
+            "Desconhecida"
+        ],
+        "sprite": "https://archives.bulbagarden.net/media/upload/3/3c/Spr_5b_180.png",
+        "types": [
+            "Elétrico"
+        ],
+        "height": 0.8,
+        "weight": 13.3,
+        "abilities": [
+            "ability-1788652661075-179"
+        ],
+        "baseStats": {
+            "agility": 5,
+            "strength": 5,
+            "constitution": 5,
+            "attention": 6,
+            "determination": 3,
+            "kindness": 4,
+            "luck": 2
+        },
+        "moves": []
+    },
+    {
+        "id": "species-1789620930557-509",
+        "nationalId": 193,
+        "name": "Yanma",
+        "regionalVariation": "",
+        "local": [
+            "Floresta P. Verdejante (alagada)"
+        ],
+        "sprite": "https://archives.bulbagarden.net/media/upload/2/21/Spr_5b_193.png",
+        "types": [
+            "Inseto",
+            "Voador"
+        ],
+        "height": 1.2,
+        "weight": 38,
+        "abilities": [
+            "ability-1788744632991-795",
+            "ability-1788745185975-638"
+        ],
+        "baseStats": {
+            "agility": 6,
+            "strength": 5,
+            "constitution": 4,
+            "attention": 5,
+            "determination": 1,
+            "kindness": 3,
+            "luck": 1
+        },
+        "moves": []
+    },
+    {
+        "id": "species-1789621005387-161",
+        "nationalId": 209,
+        "name": "Snubbull",
+        "regionalVariation": "",
+        "local": [
+            "Rota 01"
+        ],
+        "sprite": "https://archives.bulbagarden.net/media/upload/b/b3/Spr_5b_209.png",
+        "types": [
+            "Fada"
+        ],
+        "height": 0.6,
+        "weight": 7.8,
+        "abilities": [
+            "ability-1788743250640-470",
+            "ability-1788744606295-34"
+        ],
+        "baseStats": {
+            "agility": 2,
+            "strength": 4,
+            "constitution": 4,
+            "attention": 3,
+            "determination": 3,
+            "kindness": 3,
+            "luck": 2
+        },
+        "moves": []
+    },
+    {
+        "id": "species-1789621083123-310",
+        "nationalId": 210,
+        "name": "Granbull",
+        "regionalVariation": "",
+        "local": [
+            "Desconhecida"
+        ],
+        "sprite": "https://archives.bulbagarden.net/media/upload/3/3a/Spr_5b_210.png",
+        "types": [
+            "Fada"
+        ],
+        "height": 1.4,
+        "weight": 48,
+        "abilities": [
+            "ability-1788744606295-34",
+            "ability-1788745593870-520"
+        ],
+        "baseStats": {
+            "agility": 3,
+            "strength": 6,
+            "constitution": 5,
+            "attention": 5,
+            "determination": 6,
+            "kindness": 6,
+            "luck": 3
+        },
+        "moves": []
+    },
+    {
+        "id": "species-1789621165339-60",
+        "nationalId": 396,
+        "name": "Starly",
+        "regionalVariation": "",
+        "local": [
+            "Rota 01"
+        ],
+        "sprite": "https://archives.bulbagarden.net/media/upload/6/62/Spr_5b_396_m.png",
+        "types": [
+            "Normal",
+            "Voador"
+        ],
+        "height": 0.3,
+        "weight": 2,
+        "abilities": [
+            "ability-1788744083328-171",
+            "ability-1788744965655-387"
+        ],
+        "baseStats": {
+            "agility": 4,
+            "strength": 3,
+            "constitution": 3,
+            "attention": 4,
+            "determination": 2,
+            "kindness": 2,
+            "luck": 0
+        },
+        "moves": []
+    },
+    {
+        "id": "species-1789621364619-866",
+        "nationalId": 397,
+        "name": "Staravia",
+        "regionalVariation": "",
+        "local": [
+            "Rota 01"
+        ],
+        "sprite": "https://archives.bulbagarden.net/media/upload/e/e4/Spr_5b_397_m.png",
+        "types": [
+            "Normal",
+            "Voador"
+        ],
+        "height": 0.6,
+        "weight": 15.5,
+        "abilities": [
+            "ability-1788744606295-34",
+            "ability-1788744965655-387"
+        ],
+        "baseStats": {
+            "agility": 5,
+            "strength": 4,
+            "constitution": 4,
+            "attention": 5,
+            "determination": 4,
+            "kindness": 3,
+            "luck": 1
+        },
+        "moves": []
+    },
+    {
+        "id": "species-1789621500034-485",
+        "nationalId": 415,
+        "name": "Combee",
+        "regionalVariation": "",
+        "local": [
+            "Rota 01"
+        ],
+        "sprite": "https://archives.bulbagarden.net/media/upload/3/35/Spr_5b_415_m.png",
+        "types": [
+            "Inseto",
+            "Voador"
+        ],
+        "height": 0.3,
+        "weight": 5.5,
+        "abilities": [
+            "ability-1788651255397-475",
+            "ability-1788651982563-146"
+        ],
+        "baseStats": {
+            "agility": 5,
+            "strength": 2,
+            "constitution": 3,
+            "attention": 3,
+            "determination": 2,
+            "kindness": 4,
+            "luck": 1
+        },
+        "moves": []
+    },
+    {
+        "id": "species-1789621595362-391",
+        "nationalId": 416,
+        "name": "Vespiquen",
+        "regionalVariation": "",
+        "local": [
+            "Rota 01"
+        ],
+        "sprite": "https://archives.bulbagarden.net/media/upload/3/35/Spr_5b_416.png",
+        "types": [
+            "Inseto",
+            "Voador"
+        ],
+        "height": 1.2,
+        "weight": 38.5,
+        "abilities": [
+            "ability-1788652421211-168",
+            "ability-1788745945181-470"
+        ],
+        "baseStats": {
+            "agility": 3,
+            "strength": 5,
+            "constitution": 7,
+            "attention": 8,
+            "determination": 9,
+            "kindness": 8,
+            "luck": 2
+        },
+        "moves": []
+    },
+    {
+        "id": "species-1789621764715-514",
+        "nationalId": 919,
+        "name": "Nymble",
+        "regionalVariation": "",
+        "local": [
+            "Rota 01"
+        ],
+        "sprite": "https://www.smogon.com/forums/attachments/919-png.732394/",
+        "types": [
+            "Inseto"
+        ],
+        "height": 0.2,
+        "weight": 1,
+        "abilities": [
+            "ability-1788652526491-885",
+            "ability-1788744441119-998"
+        ],
+        "baseStats": {
+            "agility": 3,
+            "strength": 3,
+            "constitution": 3,
+            "attention": 4,
+            "determination": 2,
+            "kindness": 4,
+            "luck": 0
+        },
+        "moves": []
+    },
+    {
+        "id": "species-1789621902154-210",
+        "nationalId": 920,
+        "name": "Lokix",
+        "regionalVariation": "",
+        "local": [
+            "Desconhecida"
+        ],
+        "sprite": "https://www.smogon.com/forums/attachments/920-png.779794/",
+        "types": [
+            "Inseto",
+            "Sombrio"
+        ],
+        "height": 1,
+        "weight": 17.5,
+        "abilities": [
+            "ability-1788652526491-885",
+            "ability-1788744441119-998"
+        ],
+        "baseStats": {
+            "agility": 6,
+            "strength": 6,
+            "constitution": 5,
+            "attention": 7,
+            "determination": 7,
+            "kindness": 5,
+            "luck": 2
+        },
+        "moves": []
+    }
+]

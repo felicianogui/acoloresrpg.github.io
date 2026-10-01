@@ -1,0 +1,542 @@
+[
+    {
+        "id": "pokemon-1788053938110-667",
+        "speciesId": "species-1788053794542-713",
+        "regionalVariation": "",
+        "status": "capturado",
+        "hatchedFromEgg": false,
+        "nickname": "Buzina",
+        "gender": "Desconhecido",
+        "trainerId": "trainer-1788053481342-619",
+        "nature": "Meigo",
+        "sprite": "https://archives.bulbagarden.net/media/upload/7/71/Spr_5b_419_m.png",
+        "baseStats": {
+            "agility": 7,
+            "strength": 7,
+            "constitution": 4,
+            "attention": 5,
+            "determination": 7,
+            "kindness": 7,
+            "luck": 2
+        },
+        "realStats": {
+            "agility": 7,
+            "strength": 8,
+            "constitution": 4,
+            "attention": 5,
+            "determination": 7,
+            "kindness": 8,
+            "luck": 2
+        },
+        "abilities": [],
+        "moves": [
+            "move-1789674401941-412",
+            "move-1789674355888-273",
+            "move-1789671852977-720",
+            "move-1789672790354-830",
+            "move-1789674380738-949",
+            "move-1789674302715-442"
+        ]
+    },
+    {
+        "id": "pokemon-1789622388298-430",
+        "speciesId": "species-1788309428463-621",
+        "regionalVariation": "",
+        "status": "capturado",
+        "hatchedFromEgg": false,
+        "nickname": "Arc",
+        "gender": "Macho",
+        "trainerId": "trainer-1788053544334-868",
+        "nature": "Robusta",
+        "sprite": "",
+        "baseStats": {
+            "agility": 6,
+            "strength": 7,
+            "constitution": 6,
+            "attention": 4,
+            "determination": 8,
+            "kindness": 6,
+            "luck": 0
+        },
+        "realStats": {
+            "agility": 6,
+            "strength": 7,
+            "constitution": 7,
+            "attention": 4,
+            "determination": 9,
+            "kindness": 6,
+            "luck": 0
+        },
+        "abilities": [
+            "ability-1788651466956-492",
+            "ability-1788744606295-34"
+        ],
+        "moves": [
+            "move-1789673556652-662",
+            "move-1789671914902-361",
+            "move-1789673515799-707",
+            "move-1789672790354-830",
+            "move-1789673583286-886",
+            "move-1789673535641-431"
+        ]
+    },
+    {
+        "id": "pokemon-1789622469489-715",
+        "speciesId": "species-1788311799652-530",
+        "regionalVariation": "",
+        "status": "capturado",
+        "hatchedFromEgg": false,
+        "nickname": "Maleta",
+        "gender": "Fêmea",
+        "trainerId": "trainer-1788053481342-619",
+        "nature": "Gentil",
+        "sprite": "",
+        "baseStats": {
+            "agility": 5,
+            "strength": 5,
+            "constitution": 7,
+            "attention": 6,
+            "determination": 3,
+            "kindness": 6,
+            "luck": 4
+        },
+        "realStats": {
+            "agility": 6,
+            "strength": 5,
+            "constitution": 7,
+            "attention": 7,
+            "determination": 3,
+            "kindness": 6,
+            "luck": 4
+        },
+        "abilities": [
+            "ability-1788651852956-685",
+            "ability-1788652598827-490"
+        ],
+        "moves": [
+            "move-1789673816532-751",
+            "move-1789673763880-74",
+            "move-1789673689968-226",
+            "move-1789673639747-353",
+            "move-1789673783490-596",
+            "move-1789673667430-561"
+        ]
+    },
+    {
+        "id": "pokemon-1789622560138-211",
+        "speciesId": "species-0025",
+        "regionalVariation": "",
+        "status": "capturado",
+        "hatchedFromEgg": false,
+        "nickname": "Pikachu",
+        "gender": "Macho",
+        "trainerId": "trainer-1788053544334-868",
+        "nature": "Valente",
+        "sprite": "",
+        "baseStats": {
+            "agility": 6,
+            "strength": 4,
+            "constitution": 3,
+            "attention": 4,
+            "determination": 3,
+            "kindness": 5,
+            "luck": 2
+        },
+        "realStats": {
+            "agility": 6,
+            "strength": 5,
+            "constitution": 4,
+            "attention": 4,
+            "determination": 9,
+            "kindness": 5,
+            "luck": 2
+        },
+        "abilities": [
+            "ability-1788652661075-179"
+        ],
+        "moves": [
+            "move-1789607993148-248",
+            "move-1789673854216-804",
+            "move-1789671171342-255",
+            "move-1789673916037-603",
+            "move-1789673887948-467"
+        ]
+    },
+    {
+        "id": "pokemon-1789622639353-801",
+        "speciesId": "species-1788312035028-29",
+        "regionalVariation": "",
+        "status": "capturado",
+        "hatchedFromEgg": false,
+        "nickname": "Cloyster",
+        "gender": "Macho",
+        "trainerId": "trainer-1788053544334-868",
+        "nature": "Travesso",
+        "sprite": "",
+        "baseStats": {
+            "agility": 5,
+            "strength": 6,
+            "constitution": 9,
+            "attention": 5,
+            "determination": 3,
+            "kindness": 3,
+            "luck": 1
+        },
+        "realStats": {
+            "agility": 5,
+            "strength": 7,
+            "constitution": 9,
+            "attention": 5,
+            "determination": 4,
+            "kindness": 3,
+            "luck": 2
+        },
+        "abilities": [
+            "ability-1788650752284-458",
+            "ability-1788651636148-851"
+        ],
+        "moves": [
+            "move-1789673982660-999",
+            "move-1789674013055-373",
+            "move-1789670952449-886",
+            "move-1789671796531-610",
+            "move-1789673955449-751"
+        ]
+    },
+    {
+        "id": "pokemon-1789622708433-21",
+        "speciesId": "species-1788311362780-930",
+        "regionalVariation": "de Johto",
+        "status": "capturado",
+        "hatchedFromEgg": false,
+        "nickname": "Corsola",
+        "gender": "Fêmea",
+        "trainerId": "trainer-1788053544334-868",
+        "nature": "Solitária",
+        "sprite": "",
+        "baseStats": {
+            "agility": 3,
+            "strength": 4,
+            "constitution": 6,
+            "attention": 4,
+            "determination": 4,
+            "kindness": 6,
+            "luck": 3
+        },
+        "realStats": {
+            "agility": 3,
+            "strength": 5,
+            "constitution": 6,
+            "attention": 4,
+            "determination": 5,
+            "kindness": 6,
+            "luck": 3
+        },
+        "abilities": [
+            "ability-1788651982563-146",
+            "ability-1788652108603-67"
+        ],
+        "moves": [
+            "move-1789674069949-975",
+            "move-1789674038745-123",
+            "move-1789671029808-400",
+            "move-1789674131835-414",
+            "move-1789674095663-560"
+        ]
+    },
+    {
+        "id": "pokemon-1789622840785-714",
+        "speciesId": "species-1789620289877-461",
+        "regionalVariation": "",
+        "status": "capturado",
+        "hatchedFromEgg": false,
+        "nickname": "Pochita",
+        "gender": "Macho",
+        "trainerId": "trainer-1788053481342-619",
+        "nature": "Inflexível",
+        "sprite": "",
+        "baseStats": {
+            "agility": 5,
+            "strength": 6,
+            "constitution": 5,
+            "attention": 5,
+            "determination": 7,
+            "kindness": 5,
+            "luck": 1
+        },
+        "realStats": {
+            "agility": 5,
+            "strength": 6,
+            "constitution": 5,
+            "attention": 5,
+            "determination": 10,
+            "kindness": 5,
+            "luck": 1
+        },
+        "abilities": [
+            "ability-1788744606295-34",
+            "ability-1788745593870-520"
+        ],
+        "moves": [
+            "move-1789674229308-262",
+            "move-1789674271008-553",
+            "move-1789672239781-326",
+            "move-1789672790354-830",
+            "move-1789674207057-996",
+            "move-1789674248093-849"
+        ]
+    },
+    {
+        "id": "pokemon-1789622920120-367",
+        "speciesId": "species-1788309880958-44",
+        "regionalVariation": "",
+        "status": "capturado",
+        "hatchedFromEgg": false,
+        "nickname": "Wingull",
+        "gender": "Macho",
+        "trainerId": "trainer-1788053481342-619",
+        "nature": "Calmo",
+        "sprite": "",
+        "baseStats": {
+            "agility": 5,
+            "strength": 3,
+            "constitution": 2,
+            "attention": 7,
+            "determination": 4,
+            "kindness": 4,
+            "luck": 3
+        },
+        "realStats": {
+            "agility": 6,
+            "strength": 4,
+            "constitution": 3,
+            "attention": 7,
+            "determination": 4,
+            "kindness": 5,
+            "luck": 3
+        },
+        "abilities": [
+            "ability-1788743678912-466",
+            "ability-1788744965655-387"
+        ],
+        "moves": [
+            "move-1789671852977-720",
+            "move-1789674302715-442"
+        ]
+    },
+    {
+        "id": "pokemon-1789622997705-329",
+        "speciesId": "species-1788309806974-192",
+        "regionalVariation": "",
+        "status": "capturado",
+        "hatchedFromEgg": false,
+        "nickname": "Spinarak",
+        "gender": "Macho",
+        "trainerId": "trainer-1788053481342-619",
+        "nature": "Tímido",
+        "sprite": "",
+        "baseStats": {
+            "agility": 2,
+            "strength": 3,
+            "constitution": 3,
+            "attention": 6,
+            "determination": 3,
+            "kindness": 4,
+            "luck": 1
+        },
+        "realStats": {
+            "agility": 4,
+            "strength": 3,
+            "constitution": 3,
+            "attention": 7,
+            "determination": 3,
+            "kindness": 4,
+            "luck": 1
+        },
+        "abilities": [
+            "ability-1788652526491-885",
+            "ability-1788744207064-486"
+        ],
+        "moves": [
+            "move-1789603651552-188",
+            "move-1789675854736-248",
+            "move-1789675800443-676",
+            "move-1789675819005-258"
+        ]
+    },
+    {
+        "id": "pokemon-1789623062560-27",
+        "speciesId": "species-1788312318643-974",
+        "regionalVariation": "",
+        "status": "capturado",
+        "hatchedFromEgg": false,
+        "nickname": "Steenee",
+        "gender": "Fêmea",
+        "trainerId": "trainer-1788053544334-868",
+        "nature": "Dócil",
+        "sprite": "",
+        "baseStats": {
+            "agility": 4,
+            "strength": 3,
+            "constitution": 4,
+            "attention": 3,
+            "determination": 5,
+            "kindness": 4,
+            "luck": 2
+        },
+        "realStats": {
+            "agility": 4,
+            "strength": 3,
+            "constitution": 4,
+            "attention": 3,
+            "determination": 5,
+            "kindness": 6,
+            "luck": 2
+        },
+        "abilities": [
+            "ability-1788650869892-186",
+            "ability-1788743636664-796"
+        ],
+        "moves": [
+            "move-1789675891548-526",
+            "move-1789675958418-400",
+            "move-1789675912894-967",
+            "move-1789673639747-353",
+            "move-1789675931856-362"
+        ]
+    },
+    {
+        "id": "pokemon-1789623294407-907",
+        "speciesId": "species-1789620828452-661",
+        "regionalVariation": "",
+        "status": "capturado",
+        "hatchedFromEgg": false,
+        "nickname": "Nôvelinha",
+        "gender": "Fêmea",
+        "trainerId": "trainer-1788053544334-868",
+        "nature": "Relaxada",
+        "sprite": "",
+        "baseStats": {
+            "agility": 3,
+            "strength": 5,
+            "constitution": 5,
+            "attention": 7,
+            "determination": 3,
+            "kindness": 6,
+            "luck": 3
+        },
+        "realStats": {
+            "agility": 4,
+            "strength": 5,
+            "constitution": 7,
+            "attention": 8,
+            "determination": 3,
+            "kindness": 7,
+            "luck": 0
+        },
+        "abilities": [
+            "ability-1788652661075-179"
+        ],
+        "moves": [
+            "move-1789607993148-248",
+            "move-1789675989269-8",
+            "move-1789671796531-610",
+            "move-1789673247782-599"
+        ]
+    },
+    {
+        "id": "pokemon-1789623421111-399",
+        "speciesId": "species-1788312100156-557",
+        "regionalVariation": "",
+        "status": "capturado",
+        "hatchedFromEgg": false,
+        "nickname": "Ody",
+        "gender": "Macho",
+        "trainerId": "trainer-1788053544334-868",
+        "nature": "Peculiar",
+        "sprite": "",
+        "baseStats": {
+            "agility": 3,
+            "strength": 2,
+            "constitution": 4,
+            "attention": 2,
+            "determination": 4,
+            "kindness": 3,
+            "luck": 4
+        },
+        "realStats": {
+            "agility": 3,
+            "strength": 2,
+            "constitution": 4,
+            "attention": 3,
+            "determination": 4,
+            "kindness": 3,
+            "luck": 6
+        },
+        "abilities": [
+            "ability-1788743401848-615",
+            "ability-1788745745030-96"
+        ],
+        "moves": [
+            "move-1789673482828-854",
+            "move-1789673393603-518",
+            "move-1789673425462-194",
+            "move-1789673449697-490"
+        ]
+    },
+    {
+        "id": "pokemon-1789623635047-997",
+        "speciesId": "species-1789620400349-235",
+        "regionalVariation": "",
+        "status": "visto",
+        "hatchedFromEgg": false,
+        "nickname": "Chefinho",
+        "gender": "Macho",
+        "trainerId": "trainer-1788454580295-741",
+        "nature": "Cautelosa",
+        "sprite": "",
+        "baseStats": {
+            "agility": 0,
+            "strength": 0,
+            "constitution": 0,
+            "attention": 0,
+            "determination": 0,
+            "kindness": 0,
+            "luck": 0
+        },
+        "abilities": [],
+        "moves": []
+    },
+    {
+        "id": "pokemon-1789623755670-190",
+        "speciesId": "species-1788807676649-549",
+        "regionalVariation": "",
+        "status": "capturado",
+        "hatchedFromEgg": false,
+        "nickname": "Eurípedes",
+        "gender": "Macho",
+        "trainerId": "trainer-1788053272398-403",
+        "nature": "Robusta",
+        "sprite": "",
+        "baseStats": {
+            "agility": 0,
+            "strength": 0,
+            "constitution": 0,
+            "attention": 0,
+            "determination": 0,
+            "kindness": 0,
+            "luck": 0
+        },
+        "realStats": {
+            "agility": 0,
+            "strength": 0,
+            "constitution": 0,
+            "attention": 0,
+            "determination": 0,
+            "kindness": 0,
+            "luck": 0
+        },
+        "abilities": [],
+        "moves": []
+    }
+]
